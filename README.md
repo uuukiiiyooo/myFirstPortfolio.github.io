@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[My First Microverse Portfolio]** is a replicated version of <a> this template</a> based on HTML5 and CSS3 queries.
+**[My First Microverse Portfolio]** is a replicated version of this<a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1">this Microverse students template</a> based on HTML5 and CSS3 queries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
