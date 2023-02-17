@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[My First Microverse Portfolio]** is a replicated version of this<a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1">this Microverse students template</a> based on HTML5 and CSS3 queries.
+**[My First Microverse Portfolio]** is a replicated version of <a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1">this Microverse students template</a> based on HTML5 and CSS3 queries.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,21 +75,21 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">None</a></li>
+    <li>None</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">None</a></li>
+    <li>None</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">None</a></li>
+    <li>None</li>
   </ul>
 </details>
 
@@ -99,8 +99,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- **[This is a mobile first and responsive website]**
-- **[It shows a developer portfolio]**
+- **This is a mobile first and responsive website**
+- **It shows a developer portfolio**
 - **[future_feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,11 +121,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Describe how a new developer could make use of your project. -->
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps:
 
 ### Prerequisites
 
-In order to run this project you need:
+<!--In order to run this project you need:-->
 
 <!--
 Example command:
@@ -140,6 +140,8 @@ Example command:
 Clone this repository to your desired folder:
 
 cd my-folder
+
+git clone https://github.com/uuukiiiyooo/First-Microverse-Portfolio.git
 <!--
 Example commands:
 
@@ -149,12 +151,10 @@ Example commands:
 ```
 --->
 
-git clone https://github.com/uuukiiiyooo/First-Microverse-Portfolio.git
-
 
 ### Install
 
-Install this project with:
+<!--Install this project with:-->
 
 No installation needed.
 
@@ -182,9 +182,9 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+<!--To run tests, run the following command:-->
 
-No tests needed.
+No tests available.
 <!--
 Example command:
 
@@ -195,7 +195,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+<!--You can deploy this project using:-->
 
 No deployment available.
 <!--
@@ -216,8 +216,8 @@ Example:
 
 👤 **Ukiyo**
 
-- GitHub: [@githubhandle](https://github.com/uuukiiiyooo)
-- Twitter: [@twitterhandle](https://twitter.com/uuukiiiyooo)
+- GitHub: [@uuukiiiyooo](https://github.com/uuukiiiyooo)
+- Twitter: [@uuukiiiyooo](https://twitter.com/uuukiiiyooo)
 <!-- - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
@@ -290,7 +290,7 @@ I would like to thank my coding partner Ruri who helped me to write this section
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](LICENSE.md) licensed.
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 

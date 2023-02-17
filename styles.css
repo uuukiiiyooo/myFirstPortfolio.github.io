@@ -1,0 +1,168 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./img/mobBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 1.7rem;
+}
+
+.mainMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.menuLogo {
+    color: #6070FF;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 4%;
+    line-height: 6%;
+}
+
+.menuIcon {
+    position: relative;
+    top: 12px;
+    width: 22px;
+    right: 24px;
+    
+}
+
+.menuLvl {
+    display: block;
+    background-color: #6070FF;
+    width: 100%;
+    height: 2.5px;
+    margin: 4px;
+    border-radius: 2px;
+}
+
+.homeContent {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.homeContent h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 46px;
+    padding-top: 18%;
+    color: #172B4D;
+    ;
+}
+
+.contentPara {
+    margin-top: -1.5rem;
+    font-size: 0.9rem;
+    color: #344563;
+}
+
+.contentLink {
+    margin-top: -2%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #7F8CFF;
+}
+
+.homeContent li {
+    list-style-type: none;
+    margin-left: -2.5rem;
+    margin-top: -0.6rem;
+}
+
+.homeContent img {
+    height: 0.99rem;
+    margin-right: 0.95rem;
+}
+
+
+@media screen and (min-width: 375px) {
+    body {
+        background-image: url(./img/mobBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 3rem;
+    }
+    
+    .homeContent {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .homeContent h1 {
+        font-size: 2.55rem;
+        line-height: 47px;
+        padding-top: 21%;
+        font-weight: 700;
+    }
+
+    .contentPara {
+        margin-top: -7%;
+        font-size: 1rem;
+    }
+
+    .contentLink {
+        margin-top: -2.5%;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .homeContent li {
+        list-style-type: none;
+        margin-left: -13.5%;
+    }
+
+    .homeContent img {
+        height: 0.95rem;
+        margin-right: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(./img/deskBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .homeContent {
+        padding-left: 16%;
+        padding-right: 16%;
+    }
+
+    .homeContent h1 {
+        font-size: 5rem;
+        line-height: 95px;
+        padding-top: 8%;
+    }
+
+    .contentPara {
+        margin-top: -3%;
+        font-size: 1.5rem;
+    }
+
+    .contentLink {
+        margin-top: -1%;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .homeContent li {
+        list-style-type: none;
+        margin-left: -3.5%;
+    }
