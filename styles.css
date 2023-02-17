@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
@@ -5,8 +12,12 @@ body {
 }
 
 .mainMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-color: #FFFFFF;
 }
 
@@ -116,8 +127,8 @@ body {
     }
     
     .homeContent {
-        padding-left: 8%;
-        padding-right: 8%;
+        padding-left: 16%;
+        padding-right: 16%;
     }
 
     .homeContent h1 {
@@ -142,4 +153,3 @@ body {
         list-style-type: none;
         margin-left: -3.5%;
     }
-}
