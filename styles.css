@@ -53,7 +53,7 @@ body {
 }
 
 .contentLink {
-    margin-top: -8px;
+    margin-top: -3%;
     font-size: 1rem;
     font-weight: 500;
     color: #7F8CFF;
@@ -68,4 +68,78 @@ body {
     height: 20px;
     width: 20px;
     margin-right: 4%;
+}
+
+
+@media screen and (min-width: 375px) {
+    body {
+        background-image: url(./img/deskBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .homeContent {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .homeContent h1 {
+        font-size: 4rem;
+        line-height: 75px;
+        padding-top: 10%;
+    }
+
+    .contentPara {
+        margin-top: -5%;
+        font-size: 1.5rem;
+    }
+
+    .contentLink {
+        margin-top: -2%;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .homeContent li {
+        list-style-type: none;
+        margin-left: -6.5%;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(./img/deskBg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .homeContent {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .homeContent h1 {
+        font-size: 5rem;
+        line-height: 95px;
+        padding-top: 8%;
+    }
+
+    .contentPara {
+        margin-top: -3%;
+        font-size: 1.5rem;
+    }
+
+    .contentLink {
+        margin-top: -1%;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .homeContent li {
+        list-style-type: none;
+        margin-left: -3.5%;
+    }
 }
