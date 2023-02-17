@@ -9,6 +9,9 @@ body {
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
     background-image: url(./img/mobBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 1.7rem;
 }
 
 .mainMenu {
@@ -53,40 +56,43 @@ body {
 
 .homeContent h1 {
     font-weight: 700;
-    font-size: 3rem;
-    line-height: 64px;
-    padding-top: 20%;
+    font-size: 2.5rem;
+    line-height: 46px;
+    padding-top: 18%;
+    color: #172B4D;
+    ;
 }
 
 .contentPara {
-    margin-top: -10%;
-    font-size: 1rem;
+    margin-top: -1.5rem;
+    font-size: 0.9rem;
+    color: #344563;
 }
 
 .contentLink {
-    margin-top: -3%;
-    font-size: 1rem;
+    margin-top: -2%;
+    font-size: 0.9rem;
     font-weight: 500;
     color: #7F8CFF;
 }
 
 .homeContent li {
     list-style-type: none;
-    margin-left: -15%;
+    margin-left: -2.5rem;
+    margin-top: -0.6rem;
 }
 
 .homeContent img {
-    height: 20px;
-    width: 20px;
-    margin-right: 4%;
+    height: 0.99rem;
+    margin-right: 0.95rem;
 }
 
 
 @media screen and (min-width: 375px) {
     body {
-        background-image: url(./img/deskBg.png);
+        background-image: url(./img/mobBg.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
     
     .homeContent {
