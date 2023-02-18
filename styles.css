@@ -88,11 +88,12 @@ body {
 }
 
 
+
 @media screen and (min-width: 375px) {
     body {
         background-image: url(./img/mobBg.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: initial;
         background-position-y: 3rem;
     }
     
@@ -129,7 +130,106 @@ body {
         height: 0.95rem;
         margin-right: 1rem;
     }
-}
+
+
+/* New code */
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(4, 552px);
+        grid-template-columns: 327px;
+        justify-content: center;
+        background-color: #FFFFFF;
+        padding-top: 114px;
+        row-gap: 88px;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        border: 1px solid #dfe1e6;
+    }
+
+    .grid-item img {
+        display: flex;
+        justify-content: center;
+        margin: 16px;
+    }
+
+    .grid-item h2 {
+        display: flex;
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 700;
+        margin: -3px 16px;
+    }
+
+    .details {
+        display: flex;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 600;
+        margin: 0 16px;
+    }
+
+    .details ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .details li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-top: 7px;
+    }
+
+    .details img {
+        margin: 16px 11px;
+    }
+
+    .worksText {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+        margin: 8px 16px;
+    }
+
+    .worksTag {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    .worksTag ul {
+        margin: 2px 16px;
+        padding: 0;
+        display: flex;
+
+    }
+
+    .worksTag li {
+        list-style-type: none;
+        background-color:#EBEBFF;
+        padding: 4px 12px;
+        margin-right: 8px;
+        margin-top: 5px;
+        border-radius: 8px;
+        color: #6070FF;
+    }
+
+    .worksButton {
+        width: 124px;
+        height: 48px;
+        margin: 20px 16px;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #396DF2;
+        border: 1px solid #6070FF;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
 
 
 @media screen and (min-width: 768px) {
