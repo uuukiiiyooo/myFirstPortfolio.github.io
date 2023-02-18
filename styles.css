@@ -110,7 +110,7 @@ body {
     }
 
     .contentPara {
-        margin-top: -7%;
+        margin-top: -1rem;
         font-size: 1rem;
     }
 
@@ -123,7 +123,7 @@ body {
 
     .homeContent li {
         list-style-type: none;
-        margin-left: -13.5%;
+        margin-left: -2.5rem;
     }
 
     .homeContent img {
@@ -137,19 +137,20 @@ body {
     .grid-container {
         display: grid;
         grid-template-rows: repeat(4, auto);
-        grid-template-columns: 327px;
+        grid-template-columns: 1fr;
         justify-content: center;
         background-color: #E5E5E5;
-        padding: 114px 0;
-        row-gap: 88px;
+        padding: 7rem 2rem 12rem 2rem;
+        row-gap: 5rem;
     }
 
     .grid-item {
         display: flex;
         flex-direction: column;
         border-radius: 16px;
-        border: 1px solid #dfe1e6;
+        border: 1px solid #DFE1E6;
         background-color: #FFFFFF;
+        padding-bottom: 0.2rem;
     }
 
     .grid-item img {
@@ -160,10 +161,11 @@ body {
 
     .grid-item h2 {
         display: flex;
-        font-size: 32px;
+        font-size: 33px;
         line-height: 44px;
         font-weight: 700;
         margin: -3px 16px;
+        color: #172B4D;
     }
 
     .details {
@@ -184,6 +186,7 @@ body {
         display: flex;
         align-items: center;
         margin-top: 7px;
+        color: #344563;
     }
 
     .details img {
@@ -194,7 +197,8 @@ body {
         font-size: 15px;
         line-height: 24px;
         font-weight: 400;
-        margin: 8px 16px;
+        margin: 0rem 1rem;
+        color: #344563;
     }
 
     .worksTag {
@@ -235,6 +239,9 @@ body {
 
     .aboutMe {
         padding: 114px 24px;
+        background-color: #FFFFFF;
+        border-radius: 0 65px 0 0;
+        margin-top: -80px;
     }
 
     .aboutMe h1 {
@@ -242,16 +249,18 @@ body {
         line-height: 52px;
         font-weight: 700;
         margin-top: 0;
+        color: #172B4D;
     }
 
     .aboutPara {
-        margin-top: -7%;
+        margin-top: -1.2rem;
         font-size: 15px;
         line-height: 24px;
+        color: #344563;
     }
 
     .aboutLink {
-        margin-top: -2.5%;
+        margin-top: -0.8rem;
         font-size: 16px;
         line-height: 24px;
         font-weight: 500;
@@ -260,8 +269,9 @@ body {
 
     .aboutMe li {
         list-style-type: none;
-        margin-left: -13.5%;
+        margin-left: -2.5rem;
         padding-top: 5px;
+        color: #253858;
     }
 
     .aboutMe img {
@@ -286,13 +296,28 @@ body {
     .aboutMeDropdown {
         margin: 0;
         padding: 0;
+        display: block;
+    }
+
+    .dropdownItemClick {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
     }
 
     .dropdownItem {
         font-size: 20px;
         line-height: 24px;
         font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        border-bottom: 1px solid #DFE1E6;
     }
 
     .dropdownItem li {
@@ -301,11 +326,21 @@ body {
         padding: 0;
     }
 
+    .ddList li {
+        margin-left: -5rem;
+        height: 3.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .ddList p {
+        margin-left: -20px;
+    }
+
     .dropdownList {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 303px;
+        width: auto;
         height: 67px;
         background-color: #f7f7f9;
         border-radius: 8px;
@@ -323,13 +358,23 @@ body {
         display: block;
         width: 300px;
         padding: 23px 0px;
-        border-bottom: 1px solid #DFE1E6;
+        
+    }
+
+    .aboutArrowD {
+        height: 13px;
+        margin-top: -1rem;
+    }
+
+    .aboutArrowF {
+        height: 13px;
+        margin-top: -0.1rem;
     }
 
     /*Adding this class just to visually represent the onclick action*/
     .dropdownTitleClick {
         display: block  ;
-        padding: 20px 0 36px 0;
+        padding: 20px 0 34px 0;
     }
     
 
