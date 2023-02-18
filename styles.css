@@ -88,11 +88,12 @@ body {
 }
 
 
+
 @media screen and (min-width: 375px) {
     body {
         background-image: url(./img/mobBg.png);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: initial;
         background-position-y: 3rem;
     }
     
@@ -109,7 +110,7 @@ body {
     }
 
     .contentPara {
-        margin-top: -7%;
+        margin-top: -1rem;
         font-size: 1rem;
     }
 
@@ -122,7 +123,7 @@ body {
 
     .homeContent li {
         list-style-type: none;
-        margin-left: -13.5%;
+        margin-left: -2.5rem;
     }
 
     .homeContent img {
@@ -130,6 +131,254 @@ body {
         margin-right: 1rem;
     }
 }
+
+
+/* New code */
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: 1fr;
+        justify-content: center;
+        background-color: #E5E5E5;
+        padding: 7rem 2rem 12rem 2rem;
+        row-gap: 5rem;
+    }
+
+    .grid-item {
+        display: flex;
+        flex-direction: column;
+        border-radius: 16px;
+        border: 1px solid #DFE1E6;
+        background-color: #FFFFFF;
+        padding-bottom: 0.2rem;
+    }
+
+    .grid-item img {
+        display: flex;
+        justify-content: center;
+        margin: 16px;
+    }
+
+    .grid-item h2 {
+        display: flex;
+        font-size: 33px;
+        line-height: 44px;
+        font-weight: 700;
+        margin: -3px 16px;
+        color: #172B4D;
+    }
+
+    .details {
+        display: flex;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 600;
+        margin: 0 16px;
+    }
+
+    .details ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .details li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        margin-top: 7px;
+        color: #344563;
+    }
+
+    .details img {
+        margin: 16px 11px;
+    }
+
+    .worksText {
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 400;
+        margin: 0rem 1rem;
+        color: #344563;
+    }
+
+    .worksTag {
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+
+    .worksTag ul {
+        margin: 2px 16px;
+        padding: 0;
+        display: flex;
+
+    }
+
+    .worksTag li {
+        list-style-type: none;
+        background-color:#EBEBFF;
+        padding: 4px 12px;
+        margin-right: 8px;
+        margin-top: 5px;
+        border-radius: 8px;
+        color: #6070FF;
+    }
+
+    .worksButton {
+        width: 124px;
+        height: 48px;
+        margin: 20px 16px;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #396DF2;
+        border: 1px solid #6070FF;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+
+    .aboutMe {
+        padding: 114px 24px;
+        background-color: #FFFFFF;
+        border-radius: 0 65px 0 0;
+        margin-top: -80px;
+    }
+
+    .aboutMe h1 {
+        font-size: 40px;
+        line-height: 52px;
+        font-weight: 700;
+        margin-top: 0;
+        color: #172B4D;
+    }
+
+    .aboutPara {
+        margin-top: -1.2rem;
+        font-size: 15px;
+        line-height: 24px;
+        color: #344563;
+    }
+
+    .aboutLink {
+        margin-top: -0.8rem;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .aboutMe li {
+        list-style-type: none;
+        margin-left: -2.5rem;
+        padding-top: 5px;
+        color: #253858;
+    }
+
+    .aboutMe img {
+        height: 18px;
+        margin-right: 23px;
+    }
+
+    .aboutMeButton {
+        width: 162px;
+        height: 48px;
+        margin: 0px;
+        padding: 12px;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #396DF2;
+        border: 1px solid #6070FF;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+    
+    .aboutMeDropdown {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    .dropdownItemClick {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }
+
+    .dropdownItem {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+        border-bottom: 1px solid #DFE1E6;
+    }
+
+    .dropdownItem li {
+        margin-bottom: 12px;
+        margin-left: -43px;
+        padding: 0;
+    }
+
+    .ddList li {
+        margin-left: -5rem;
+        height: 3.8rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .ddList p {
+        margin-left: -20px;
+    }
+
+    .dropdownList {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: auto;
+        height: 67px;
+        background-color: #f7f7f9;
+        border-radius: 8px;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .dropdownList img {
+        height: 48px;
+        padding: 9px 12px;
+    }
+
+    .dropdownTitle {
+        display: block;
+        width: 300px;
+        padding: 23px 0px;
+        
+    }
+
+    .aboutArrowD {
+        height: 13px;
+        margin-top: -1rem;
+    }
+
+    .aboutArrowF {
+        height: 13px;
+        margin-top: -0.1rem;
+    }
+
+    /*Adding this class just to visually represent the onclick action*/
+    .dropdownTitleClick {
+        display: block  ;
+        padding: 20px 0 34px 0;
+    }
+    
+
+    /*Ends new code*/
 
 
 @media screen and (min-width: 768px) {
@@ -166,3 +415,4 @@ body {
         list-style-type: none;
         margin-left: -3.5%;
     }
+}
