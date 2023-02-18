@@ -138,8 +138,8 @@ body {
         grid-template-rows: repeat(4, auto);
         grid-template-columns: 327px;
         justify-content: center;
-        background-color: #FFFFFF;
-        padding-top: 114px;
+        background-color: #E5E5E5;
+        padding: 114px 0;
         row-gap: 88px;
     }
 
@@ -148,6 +148,7 @@ body {
         flex-direction: column;
         border-radius: 16px;
         border: 1px solid #dfe1e6;
+        background-color: #FFFFFF;
     }
 
     .grid-item img {
@@ -230,6 +231,108 @@ body {
         border-radius: 8px;
         background-color: #FFFFFF;
     }
+
+    .aboutMe {
+        padding: 114px 24px;
+    }
+
+    .aboutMe h1 {
+        font-size: 40px;
+        line-height: 52px;
+        font-weight: 700;
+        margin-top: 0;
+    }
+
+    .aboutPara {
+        margin-top: -7%;
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .aboutLink {
+        margin-top: -2.5%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .aboutMe li {
+        list-style-type: none;
+        margin-left: -13.5%;
+        padding-top: 5px;
+    }
+
+    .aboutMe img {
+        height: 18px;
+        margin-right: 23px;
+    }
+
+    .aboutMeButton {
+        width: 162px;
+        height: 48px;
+        margin: 0px;
+        padding: 12px;
+        font-size: 17px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #396DF2;
+        border: 1px solid #6070FF;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+    
+    .aboutMeDropdown {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .dropdownItem {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+
+    .dropdownItem li {
+        margin-bottom: 12px;
+        margin-left: -43px;
+        padding: 0;
+    }
+
+    .dropdownList {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 303px;
+        height: 67px;
+        background-color: #f7f7f9;
+        border-radius: 8px;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 500;
+    }
+
+    .dropdownList img {
+        height: 48px;
+        padding: 9px 12px;
+    }
+
+    .dropdownTitle {
+        display: block;
+        width: 300px;
+        padding: 23px 0px;
+        border-bottom: 1px solid #DFE1E6;
+    }
+
+    /*Adding this class just to visually represent the onclick action*/
+    .dropdownTitleClick {
+        display: block  ;
+        padding: 20px 0 36px 0;
+    }
+    
+
+    /*Ends new code*/
 
 
 @media screen and (min-width: 768px) {
