@@ -210,8 +210,6 @@ body {
     .worksTag ul {
         margin: 2px 16px;
         padding: 0;
-        display: flex;
-
     }
 
     .worksTag li {
@@ -222,6 +220,8 @@ body {
         margin-top: 5px;
         border-radius: 8px;
         color: #6070FF;
+        float: left;
+
     }
 
     .worksButton {
