@@ -389,6 +389,8 @@ body {
         border-top-left-radius: 80px;
     }
 
+
+
     .contactMe h2 {
         display: block;
         font-size: 40px;
@@ -409,7 +411,7 @@ body {
     }
 
     input {
-        width: 327px;
+        width: 325px;
         height: 48px;
         display: flex;
         align-items: center;
@@ -423,14 +425,29 @@ body {
         font-weight: 400;
         font-size: 17px;
         line-height: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
       }
 
       form li + li{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
       }
 
     .contactMe ul{
             list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+    }
+
+    .contactMe textarea {
+        width: 310px;
+        height: 170px;
+        margin-left: 25px;
+        margin-right: 25px;
+        border: none;
+        padding: 15px 0 0 15px;
+        border-radius: 8px;
+        font-family: "Poppins", sans-serif;
     }
     
     
