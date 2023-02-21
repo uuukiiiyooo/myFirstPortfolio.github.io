@@ -450,7 +450,18 @@ body {
         font-family: "Poppins", sans-serif;
     }
     
-    
+    .contactMe button {
+        width: 142px;
+        height: 48px;
+        margin-left: 20px;
+        border-radius: 8px;
+        font-family: 'Poppins';
+        color: #6070FF;
+        font-size: 17px;
+        font-weight: 500;
+        background-color: #FFFFFF;
+        border: none;
+      }
 
     /*Ends new code*/
 
