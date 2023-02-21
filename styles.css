@@ -377,7 +377,16 @@ body {
     }
 
     .contactMe {
-        background-color: #6070FF;
+        position: absolute;
+        width: 375px;
+        height: 779px;
+        left: 0px;
+        top: 5410px;
+        background: #6070FF;
+        background-position: right;
+        background-image: url('img/mobContact.png');
+        background-repeat: no-repeat;
+        border-top-left-radius: 80px;
     }
 
     .contactMe h2 {
@@ -398,9 +407,36 @@ body {
         font-weight: 400;
         text-align: center;
     }
+
+    input {
+        width: 327px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #CFD8DC;
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding: 16px 15px 38px 15px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 20px;
+      }
+
+      form li + li{
+        margin-top: 1rem;
+      }
+
+    .contactMe ul{
+            list-style-type: none;
+    }
+    
     
 
     /*Ends new code*/
+
 
 
 @media screen and (min-width: 768px) {
@@ -438,3 +474,4 @@ body {
         margin-left: -3.5%;
     }
 }
+
