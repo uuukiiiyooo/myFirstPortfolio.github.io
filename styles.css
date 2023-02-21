@@ -210,6 +210,7 @@ body {
     .worksTag ul {
         margin: 2px 16px;
         padding: 0;
+        display: flex;
     }
 
     .worksTag li {
@@ -220,8 +221,6 @@ body {
         margin-top: 5px;
         border-radius: 8px;
         color: #6070FF;
-        float: left;
-
     }
 
     .worksButton {
@@ -375,6 +374,29 @@ body {
     .dropdownTitleClick {
         display: block  ;
         padding: 20px 0 34px 0;
+    }
+
+    .contactMe {
+        background-color: #6070FF;
+    }
+
+    .contactMe h2 {
+        display: block;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 105px;
+    }
+
+    .contactMe p {
+        padding: 0 24px;
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 400;
+        text-align: center;
     }
     
 
