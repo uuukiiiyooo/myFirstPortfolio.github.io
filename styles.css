@@ -470,7 +470,10 @@ body {
         color: #6070FF;
       }
     
-
+      .contactMe button:hover {
+        border: 1px solid #172B4D;
+        color: #172B4D;
+      }
     /*Ends new code*/
 
 
