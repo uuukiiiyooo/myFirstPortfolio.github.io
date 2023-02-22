@@ -462,7 +462,7 @@ body {
         margin-left: 24px;
         padding: 0;
         background-color: #FFFFFF;
-        border: none;
+        border: 1px solid #7F8CFF;
         border-radius: 8px;
         font-family: 'Poppins';
         font-size: 17px;
@@ -471,8 +471,10 @@ body {
       }
     
       .contactMe button:hover {
-        border: 1px solid #172B4D;
-        color: #172B4D;
+        background-color: #6070FF;
+        border: none;
+        box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+        color: #FFFFFF;
       }
     /*Ends new code*/
 
