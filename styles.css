@@ -78,6 +78,11 @@ body {
 .homeContent img {
     height: 0.99rem;
     margin-right: 0.95rem;
+    transition: height 1s 1s;
+}
+
+.homeContent img:hover{
+    height: 1.3rem;
 }
 
 /*Works and about me section*/
@@ -540,8 +545,7 @@ input {
         width: 18rem;
     }
 
-    .grid-item:
-
+     .grid-item:
     .grid-item h2 {
         margin-left: 20rem;
         padding-top: 1.5rem;
@@ -584,7 +588,7 @@ input {
         padding: 0 0.33rem;
         border-radius: 6px;
         font-size: 0.45rem;
-
+        
     }
     
     .worksButton {
