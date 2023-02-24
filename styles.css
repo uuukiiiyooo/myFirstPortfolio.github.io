@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 body {
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
@@ -87,6 +80,351 @@ body {
     margin-right: 0.95rem;
 }
 
+/*Works and about me section*/
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr;
+    justify-content: center;
+    background-color: #E5E5E5;
+    padding: 7rem 2rem 12rem 2rem;
+    row-gap: 5rem;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #DFE1E6;
+    background-color: #FFFFFF;
+    padding-bottom: 0.2rem;
+}
+
+.grid-item img {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.grid-item h2 {
+    display: flex;
+    font-size: 33px;
+    line-height: 44px;
+    font-weight: 700;
+    margin: -3px 16px;
+    color: #172B4D;
+}
+
+.details {
+    display: flex;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    margin: 0 16px;
+}
+
+.details ul {
+    margin: 0;
+    padding: 0;
+}
+
+.details li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+    color: #344563;
+}
+
+.details img {
+    margin: 16px 11px;
+}
+
+.worksText {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0rem 1rem;
+    color: #344563;
+}
+
+.worksTag {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.worksTag ul {
+    margin: 2px 16px;
+    padding: 0;
+    display: flex;
+}
+
+.worksTag li {
+    list-style-type: none;
+    background-color:#EBEBFF;
+    padding: 4px 12px;
+    margin-right: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    color: #6070FF;
+}
+
+.worksButton {
+    width: 124px;
+    height: 48px;
+    margin: 20px 16px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #396DF2;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.aboutMe {
+    padding: 114px 24px 55px 24px;
+    background-color: #FFFFFF;
+    border-radius: 0 65px 0 0;
+    margin-top: -80px;
+}
+
+.aboutMe h1 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #172B4D;
+}
+
+.aboutPara {
+    margin-top: -1.2rem;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+}
+
+.aboutLink {
+    margin-top: -0.8rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #7F8CFF;
+}
+
+.aboutMe li {
+    list-style-type: none;
+    margin-left: -2.5rem;
+    padding-top: 5px;
+    color: #253858;
+}
+
+.aboutMe img {
+    height: 18px;
+    margin-right: 23px;
+}
+
+.aboutMeButton {
+    width: 162px;
+    height: 48px;
+    margin: 0px;
+    padding: 12px;
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #396DF2;
+    border: 1px solid #6070FF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.aboutMeDropdown {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.dropdownItemClick {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+.dropdownItem {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    border-bottom: 1px solid #DFE1E6;
+}
+
+.dropdownItem li {
+    margin-bottom: 12px;
+    margin-left: -43px;
+    padding: 0;
+}
+
+.ddList li {
+    margin-left: -5rem;
+    height: 3.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.ddList p {
+    margin-left: -20px;
+}
+
+.dropdownList {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    height: 67px;
+    background-color: #f7f7f9;
+    border-radius: 8px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.dropdownList img {
+    height: 48px;
+    padding: 9px 12px;
+}
+
+.dropdownTitle {
+    display: block;
+    width: 300px;
+    padding: 23px 0px;
+    
+}
+
+.aboutArrowD {
+    height: 13px;
+    margin-top: -1rem;
+}
+
+.aboutArrowF {
+    height: 13px;
+    margin-top: -0.1rem;
+}
+
+/*Adding this class just to visually represent the onclick action*/
+.dropdownTitleClick {
+    display: block  ;
+    padding: 20px 0 34px 0;
+}
+
+.contactMe {
+    padding-bottom: 2.5rem;
+    background: #6070FF;
+    background-position: right;
+    background-image: url('img/mobContact.png');
+    background-repeat: no-repeat;
+    border-top-left-radius: 80px;
+}
+
+.contactMe h2 {
+    display: block;
+    padding-top: 6.5rem;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.contactMe p {
+    padding: 0 24px;
+    margin-top: -1rem;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contactMe form {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+.contactMe ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.contactMe li {
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.contactMe form li + li{
+    margin-top: 1rem;
+  }
+
+input {
+    width: 100%;
+    height: 46px;
+    padding-left: 15px;
+    border: 1px solid #CFD8DC;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+.contactMe textarea {
+    width: 100%;
+    height: 155px;
+    padding: 15px 0 0 15px;
+    border: none;
+    border: 1px solid #CFD8DC;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 14px;
+    color:#B3BAC5;
+}
+
+.contactMe button {
+    width: 142px;
+    height: 48px;
+    margin-top: 1.4rem;
+    margin-left: 24px;
+    padding: 0;
+    background-color: #FFFFFF;
+    border: 1px solid #7F8CFF;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 500;
+    color: #6070FF;
+    transition: background-color 1s 1s, color 1s 1s;
+  }
+
+  .contactMe button:hover {
+    background-color: #6070FF;
+    border: none;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    color: #FFFFFF;
+  }
 
 
 @media screen and (min-width: 375px) {
@@ -133,386 +471,141 @@ body {
 }
 
 
-/* New code */
-    .grid-container {
-        display: grid;
-        grid-template-rows: repeat(4, auto);
-        grid-template-columns: 1fr;
-        justify-content: center;
-        background-color: #E5E5E5;
-        padding: 7rem 2rem 12rem 2rem;
-        row-gap: 5rem;
-    }
-
-    .grid-item {
-        display: flex;
-        flex-direction: column;
-        border-radius: 16px;
-        border: 1px solid #DFE1E6;
-        background-color: #FFFFFF;
-        padding-bottom: 0.2rem;
-    }
-
-    .grid-item img {
-        display: flex;
-        justify-content: center;
-        margin: 16px;
-    }
-
-    .grid-item h2 {
-        display: flex;
-        font-size: 33px;
-        line-height: 44px;
-        font-weight: 700;
-        margin: -3px 16px;
-        color: #172B4D;
-    }
-
-    .details {
-        display: flex;
-        font-size: 13px;
-        line-height: 16px;
-        font-weight: 600;
-        margin: 0 16px;
-    }
-
-    .details ul {
-        margin: 0;
-        padding: 0;
-    }
-
-    .details li {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        margin-top: 7px;
-        color: #344563;
-    }
-
-    .details img {
-        margin: 16px 11px;
-    }
-
-    .worksText {
-        font-size: 15px;
-        line-height: 24px;
-        font-weight: 400;
-        margin: 0rem 1rem;
-        color: #344563;
-    }
-
-    .worksTag {
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 500;
-    }
-
-    .worksTag ul {
-        margin: 2px 16px;
-        padding: 0;
-        display: flex;
-    }
-
-    .worksTag li {
-        list-style-type: none;
-        background-color:#EBEBFF;
-        padding: 4px 12px;
-        margin-right: 8px;
-        margin-top: 5px;
-        border-radius: 8px;
-        color: #6070FF;
-    }
-
-    .worksButton {
-        width: 124px;
-        height: 48px;
-        margin: 20px 16px;
-        font-size: 17px;
-        line-height: 24px;
-        font-weight: 500;
-        color: #396DF2;
-        border: 1px solid #6070FF;
-        border-radius: 8px;
-        background-color: #FFFFFF;
-    }
-
-    .aboutMe {
-        padding: 114px 24px 55px 24px;
-        background-color: #FFFFFF;
-        border-radius: 0 65px 0 0;
-        margin-top: -80px;
-    }
-
-    .aboutMe h1 {
-        font-size: 40px;
-        line-height: 52px;
-        font-weight: 700;
-        margin-top: 0;
-        color: #172B4D;
-    }
-
-    .aboutPara {
-        margin-top: -1.2rem;
-        font-size: 15px;
-        line-height: 24px;
-        color: #344563;
-    }
-
-    .aboutLink {
-        margin-top: -0.8rem;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 500;
-        color: #7F8CFF;
-    }
-
-    .aboutMe li {
-        list-style-type: none;
-        margin-left: -2.5rem;
-        padding-top: 5px;
-        color: #253858;
-    }
-
-    .aboutMe img {
-        height: 18px;
-        margin-right: 23px;
-    }
-
-    .aboutMeButton {
-        width: 162px;
-        height: 48px;
-        margin: 0px;
-        padding: 12px;
-        font-size: 17px;
-        line-height: 24px;
-        font-weight: 500;
-        color: #396DF2;
-        border: 1px solid #6070FF;
-        border-radius: 8px;
-        background-color: #FFFFFF;
-    }
-    
-    .aboutMeDropdown {
-        margin: 0;
-        padding: 0;
-        display: block;
-    }
-
-    .dropdownItemClick {
-        font-size: 20px;
-        line-height: 24px;
-        font-weight: 500;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: auto;
-    }
-
-    .dropdownItem {
-        font-size: 20px;
-        line-height: 24px;
-        font-weight: 500;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: auto;
-        border-bottom: 1px solid #DFE1E6;
-    }
-
-    .dropdownItem li {
-        margin-bottom: 12px;
-        margin-left: -43px;
-        padding: 0;
-    }
-
-    .ddList li {
-        margin-left: -5rem;
-        height: 3.8rem;
-        margin-bottom: 0.8rem;
-    }
-
-    .ddList p {
-        margin-left: -20px;
-    }
-
-    .dropdownList {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        width: auto;
-        height: 67px;
-        background-color: #f7f7f9;
-        border-radius: 8px;
-        font-size: 15px;
-        line-height: 20px;
-        font-weight: 500;
-    }
-
-    .dropdownList img {
-        height: 48px;
-        padding: 9px 12px;
-    }
-
-    .dropdownTitle {
-        display: block;
-        width: 300px;
-        padding: 23px 0px;
-        
-    }
-
-    .aboutArrowD {
-        height: 13px;
-        margin-top: -1rem;
-    }
-
-    .aboutArrowF {
-        height: 13px;
-        margin-top: -0.1rem;
-    }
-
-    /*Adding this class just to visually represent the onclick action*/
-    .dropdownTitleClick {
-        display: block  ;
-        padding: 20px 0 34px 0;
-    }
-
-    .contactMe {
-        padding-bottom: 2.5rem;
-        background: #6070FF;
-        background-position: right;
-        background-image: url('img/mobContact.png');
-        background-repeat: no-repeat;
-        border-top-left-radius: 80px;
-    }
-
-    .contactMe h2 {
-        display: block;
-        padding-top: 6.5rem;
-        font-size: 40px;
-        font-weight: 700;
-        line-height: 52px;
-        color: #FFFFFF;
-        text-align: center;
-    }
-
-    .contactMe p {
-        padding: 0 24px;
-        margin-top: -1rem;
-        color: #FFFFFF;
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 400;
-        text-align: center;
-    }
-
-    .contactMe form {
-        display: flex;
-        justify-content: center;
-        padding-top: 1.5rem;
-    }
-
-    .contactMe ul{
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-        width: 100%;
-    }
-
-    .contactMe li {
-        display: flex;
-        justify-content: center;
-        padding: 0 24px;
-    }
-    
-    .contactMe form li + li{
-        margin-top: 1rem;
-      }
-
-    input {
-        width: 100%;
-        height: 46px;
-        padding-left: 15px;
-        border: 1px solid #CFD8DC;
-        border-radius: 8px;
-        box-sizing: border-box;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 17px;
-        line-height: 20px;
-      }
-
-    .contactMe textarea {
-        width: 100%;
-        height: 155px;
-        padding: 15px 0 0 15px;
-        border: none;
-        border: 1px solid #CFD8DC;
-        border-radius: 8px;
-        font-family: "Poppins", sans-serif;
-        font-size: 15px;
-        line-height: 14px;
-        color:#B3BAC5;
-    }
-
-    .contactMe button {
-        width: 142px;
-        height: 48px;
-        margin-top: 1.4rem;
-        margin-left: 24px;
-        padding: 0;
-        background-color: #FFFFFF;
-        border: 1px solid #7F8CFF;
-        border-radius: 8px;
-        font-family: 'Poppins';
-        font-size: 17px;
-        font-weight: 500;
-        color: #6070FF;
-      }
-    
-      .contactMe button:hover {
-        background-color: #6070FF;
-        border: none;
-        box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-        color: #FFFFFF;
-      }
-    /*Ends new code*/
-
-
-
 @media screen and (min-width: 768px) {
     body {
-        background-image: url(./img/deskBg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: none;
+        background-color: #E5E5E5;
     }
     
     .homeContent {
-        padding-left: 16%;
-        padding-right: 16%;
+        padding: 5rem 7.9rem 7rem;
+        background-color: #FFFFFF;
+        background-image: url(./img/deskHome.png);
+        background-repeat: no-repeat;
+        background-size: 45rem;
+        background-position: right;
+        border-bottom-left-radius: 80px;
     }
 
     .homeContent h1 {
-        font-size: 5rem;
-        line-height: 95px;
         padding-top: 8%;
+        font-size: 1.7rem;
+        line-height: 2rem;
+        color: #091E42;
     }
 
     .contentPara {
-        margin-top: -3%;
-        font-size: 1.5rem;
+        margin-top: -1.2rem;
+        font-size: 0.7rem;
     }
 
     .contentLink {
-        margin-top: -1%;
-        font-size: 1.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: -0.7rem;
+        font-size: 0.55rem;
         font-weight: 500;
         color: #7F8CFF;
+    }
+
+    .homeContent ul {
+        padding: 0.15rem 1rem;
     }
 
     .homeContent li {
         list-style-type: none;
         margin-left: -3.5%;
+    }
+    
+    .homeContent img {
+        height: 0.69rem;
+        margin-right: 0.45rem;
+    }
+
+    .grid-container {
+        padding: 4.5rem 2rem 12rem 2rem;
+        row-gap: 6rem;
+    }
+
+    .grid-item {
+        display: block;
+        border-radius: 16px;
+        border: 1px solid #DFE1E6;
+        background-color: #FFFFFF;
+        margin: 0 2.3rem;
+    }
+
+    .grid-item #header-img {
+        float: left;
+        margin: 0.8rem;
+        width: 18rem;
+    }
+
+    .grid-item:
+
+    .grid-item h2 {
+        margin-left: 20rem;
+        padding-top: 1.5rem;
+        font-size: 1.3rem;
+        line-height: normal;
+    }
+
+    .details {
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 600;
+        margin: 0 16px;
+    }
+    
+    .details li {
+        margin-left: 0.5rem;
+        font-size: 0.6rem;
+    }
+    
+    .details img {
+        width: 0.3rem;
+        margin: 0 6px;
+    }
+    
+    .worksText {
+        margin-left: 20.15rem;
+        margin-top: 1rem;
+        padding-right: 0.2rem;
+        font-size: 0.53rem;
+        line-height: normal;
+    }
+    
+    .worksTag ul {
+        margin: 0.2rem 0 0;
+    }
+    
+    .worksTag li {
+        margin-left: 0.5rem;
+        margin-right: -0.25rem;
+        padding: 0 0.33rem;
+        border-radius: 6px;
+        font-size: 0.45rem;
+
+    }
+    
+    .worksButton {
+        width: 67px;
+        height: 25px;
+        margin-left: 0.5rem;
+        font-size: 0.55rem;
+        line-height: normal;
+        border-radius: 5px;
+    }
+
+    .aboutMe {
+        margin-top: -7rem;
+    }
+
+    .aboutMe h1 {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        font-weight: 700;
+        margin-top: -2.3rem;
+        color: #172B4D;
     }
 }
 
