@@ -180,7 +180,7 @@ li {
 .worksTag li {
     list-style-type: none;
     background-color:#EBEBFF;
-    padding: 4px 12px;
+    padding: 0.2% 1.5%;
     margin-right: 8px;
     margin-top: 5px;
     border-radius: 8px;
@@ -232,8 +232,7 @@ li {
 
 .aboutMe li {
     list-style-type: none;
-    margin-left: -2.5rem;
-    padding-top: 5px;
+    margin-left: -5vw;
     color: #253858;
 }
 
@@ -257,8 +256,7 @@ li {
 }
 
 .aboutMeDropdown {
-    margin: 0;
-    padding: 0;
+    margin-top: 15%;
     display: block;
 }
 
@@ -515,7 +513,7 @@ input {
     }
     
     .homeContent {
-        padding: 5rem 7.9rem 7rem;
+        padding: 10% 18% 13%;
         background-color: #FFFFFF;
         background-image: url(./img/deskHome.png);
         background-repeat: no-repeat;
@@ -527,26 +525,26 @@ input {
 
     .homeContent h1 {
         padding-top: 3.7rem;
-        font-size: 1.7rem;
-        line-height: 2rem;
+        font-size: 3.5vw;
+        line-height: 4vw;
         color: #091E42;
     }
 
     .contentPara {
         margin-top: -1.2rem;
-        font-size: 0.7rem;
+        font-size: 1.4vw;
     }
 
     .contentLink {
         margin-top: 0.5rem;
         margin-bottom: -0.7rem;
-        font-size: 0.55rem;
+        font-size: 1vw;
         font-weight: 500;
         color: #7F8CFF;
     }
 
     .homeContent ul {
-        padding: 0.15rem 1rem;
+        padding: 1% 3.4%;
     }
 
     .homeContent li {
@@ -555,61 +553,74 @@ input {
     }
     
     .homeContent img {
-        height: 0.69rem;
+        height: 1.4vw;
         margin-right: 0.45rem;
     }
 
     .grid-container {
-        padding: 4.5rem 2rem 12rem 2rem;
-        row-gap: 6rem;
+        padding: 10% 10.5% 26%;
+        row-gap: 9%;
     }
 
     .grid-item {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
         border-radius: 16px;
         border: 1px solid #DFE1E6;
         background-color: #FFFFFF;
-        margin: 0 2.3rem;
+    }
+
+    .contentRight {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .postRight {
+        margin-left: 3.5%;
     }
 
     .grid-item #header-img-l {
         float: left;
         margin: 0.8rem;
-        width: 18rem;
+        width: 47%;
     }
 
     .grid-item #header-img-r {
         float: right;
         margin: 0.8rem;
-        width: 18rem;
+        width: 47%;
     }
 
     .grid-item h2 {
-        margin-left: 1.4rem;
+        margin-left: 0;
         padding-top: 1.4rem;
-        font-size: 1.3rem;
+        font-size: 2.75vw;
         line-height: normal;
     }
 
+    .postLeft {
+        margin-left: 2%;
+    }
+
     .postLeft h2 {
-        margin-left: 20rem;
+        margin-left: 0;
     }
 
     .details {
         font-size: 13px;
         line-height: 16px;
         font-weight: 600;
-        margin: 0 16px;
+        margin-left: 0;
     }
     
     .details li {
-        margin-left: 0.4rem;
         font-size: 0.6rem;
     }
 
     .postLeft li {
-        margin-left: 0.5rem;
-        font-size: 0.6rem;
+        font-size: 1.2vw;
     }
     
     .details img {
@@ -618,76 +629,87 @@ input {
     }
     
     .worksText {
-        margin-left: 1.4rem;
+        margin-left: 0;
         margin-top: 1rem;
         padding-right: 0.2rem;
-        font-size: 0.53rem;
+        font-size: 1.1vw;
         line-height: normal;
     }
 
     .postLeft p {
-        margin-left: 20.15rem;
+        margin-left: 0;
     }
     
     .worksTag ul {
-        margin: 0.2rem 0 0 ;
+        margin: 0.2rem 0 0 0;
     }
 
     #worksRight {
-        margin: 0.2rem 0 0 0.8rem;
+        margin: 3% 0;
     }
     
     .worksTag li {
-        margin-left: 0.5rem;
-        margin-right: -0.25rem;
+        margin-left: 0;
         padding: 0 0.33rem;
         border-radius: 6px;
-        font-size: 0.45rem;
+        font-size: 0.85vw;
 
     }
     
     .worksButton {
-        width: 67px;
-        height: 25px;
-        margin-left: 1.3rem;
-        font-size: 0.55rem;
+        width: 25%;
+        height: 3.5vw;
+        margin-left: 0;
+        font-size: 1.2vw;
         line-height: normal;
         border-radius: 5px;
     }
 
     .postLeft button {
-        margin-left: 0.5rem;
+        margin-left: 0;
     }
 
     .aboutMe {
-        margin-top: -7rem;
+        margin-top: 20%;
         padding: 0 4.8rem 13rem 4.8rem;
         display: grid;
         grid-template-columns: 37.5% 57.5%;
         column-gap: 5%;
     }
 
+    .aboutInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
     .aboutMe h1 {
-        margin-top: 5rem;
-        font-size: 1.3rem;
-        line-height: 1.6rem;
+        margin-top: 37%;
+        font-size: 2.7vw;
+        line-height: 3.4vw;
         font-weight: 700;
         color: #172B4D;
     }
 
     .aboutPara {
         margin-top: -0.9rem;
-        font-size: 0.5rem;
-        line-height: 0.7rem;
+        font-size: 1.05vw;
+        line-height: 1.5vw;
     }
 
     .aboutLink {
-        margin-top: -0.1rem;
-        font-size: 0.53rem;
+        margin-top: -0.4vw;
+        font-size: 1.07vw;
+    }
+
+    .socialLinks {
+        margin: 0;
+        padding: 0;
     }
 
     .aboutSocial {
-        margin: 0 0 0.5rem 0.3rem;
+        padding-left: 6vw;
+        margin-top: 3%;
     }
 
     .aboutInfo li {
@@ -695,34 +717,35 @@ input {
     }
 
     .aboutInfo img {
-        height: 10px;
+        height: 1.4vw;
         margin-right: 0.45rem;
     }
-
+/*Erase this ctrl z*/
     .aboutMeButton {
-        width: 82px;
-        height: 25px;
+        width: 38%;
+        height: 3.3vw;
         padding: 0;
+        margin-top: -3%;
+        margin-left: 1vw;
         border-radius: 4px;
-        font-size: 0.57rem;
+        font-size: 1.2vw;
     }
 
     .dropdownItemClick {
-        margin-top: 3rem;
-        font-size: 0.72rem;
+        font-size: 1.5vw;
         line-height: normal;
     }
 
     .aboutMe img {
-        height: 9px;
-        margin-right: 0.5rem;
+        height: 1.3vw;
+        margin-right: 1vw;
     }
 
     .ddList ul {
         padding: 0;
         margin: -1rem 0 0 -2.8rem;
         display: flex;
-        column-gap: 0.4rem;
+        column-gap: 1.7%;
     }
 
     .ddList li {
@@ -730,8 +753,11 @@ input {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 4rem;
-        font-size: 0.5rem;
+        width: 18%;
+        height: 8vw;
+        padding-left: 0.1vw;
+        padding-top: 0.5vw;
+        font-size: 1vw;
         font-weight: 500;
     }
 
@@ -741,7 +767,7 @@ input {
 
     .dropdownList img {
         margin: -0.2rem 0 0 0;
-        height: 1.7rem;
+        height: 48%;
         padding: 0.3rem;
     }
 
@@ -750,12 +776,12 @@ input {
     }
 
     .dropdownItem {
-        font-size: 0.69rem;
+        font-size: 1.5vw;
         line-height: normal;
     }
 
     .dropdownTitle {
-        padding: 0.6rem 0.5rem;
+        padding: 4% 0.5rem;
     }
 
     .contactMe {
@@ -770,19 +796,20 @@ input {
     .contactMe h2 {
         margin-bottom: 0.8rem;
         padding-top: 5.2rem;
-        font-size: 1.24rem;
+        font-size: 2.7vw;
         line-height: normal;
     }
 
     .contactMe p {
-        padding: 0.5rem 14rem 0 14rem;
-        font-size: 0.7rem;
+        padding: 0.5rem 30% 0 30%;
+        font-size: 1.37vw;
         font-weight: 400;
-        line-height: 1rem;
+        line-height: 1.9vw;
     }
 
     .contactMe form {
-        padding: 0 14rem;
+        margin: -2.8% auto;
+        width: 38vw;
     }
 
     .contactMe ul {
@@ -803,7 +830,7 @@ input {
     }
 
     .contactMe form li + li {
-        margin-top: 0.78rem;
+        margin-top: 4.5%;
     }
 
     .contactMe textarea {
@@ -814,10 +841,10 @@ input {
 
     .contactMe button {
         margin: 0.8rem 0;
-        width: 5rem;
-        height: 1.7rem;
+        width: 26%;
+        height: 3.24vw;
         border-radius: 4px;
-        font-size: 0.6rem;
+        font-size: 1.25vw;
     }
 }
 
