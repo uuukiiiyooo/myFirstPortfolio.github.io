@@ -7,6 +7,14 @@ body {
     background-position-y: 1.7rem;
 }
 
+button {
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    font-family: "Poppins", sans-serif;
+}
+
 .mainMenu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,7 +38,10 @@ body {
     top: 12px;
     width: 22px;
     right: 24px;
-    
+}
+
+.menuText {
+    display: none;
 }
 
 .menuLvl {
@@ -78,10 +89,10 @@ body {
 .homeContent img {
     height: 0.99rem;
     margin-right: 0.95rem;
-    transition: height 1s 1s;
+    transition: height 0.5s;
 }
 
-.homeContent img:hover{
+.homeContent img:hover {
     height: 1.3rem;
 }
 
@@ -421,7 +432,7 @@ input {
     font-size: 17px;
     font-weight: 500;
     color: #6070FF;
-    transition: background-color 1s 1s, color 1s 1s;
+    transition: background-color 0.5s, color 0.5s;
   }
 
   .contactMe button:hover {
@@ -481,19 +492,41 @@ input {
         background-image: none;
         background-color: #E5E5E5;
     }
+
+    .menuLogo {
+        font-size: 0.75rem;
+        padding-left: 4.9rem;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .menuText {
+        margin-right: 4.7rem;
+        display: flex;
+        list-style: none;
+        font-size: 0.51rem;
+        font-weight: 400;
+    }
+
+    .menuText li {
+        margin-left: 1.1rem;
+    }
     
     .homeContent {
         padding: 5rem 7.9rem 7rem;
         background-color: #FFFFFF;
         background-image: url(./img/deskHome.png);
         background-repeat: no-repeat;
-        background-size: 45rem;
-        background-position: right;
+        background-size: 97%;
+        background-position-x: 1.05rem;
+        background-position-y: 2.8rem;
         border-bottom-left-radius: 80px;
     }
 
     .homeContent h1 {
-        padding-top: 8%;
+        padding-top: 3.7rem;
         font-size: 1.7rem;
         line-height: 2rem;
         color: #091E42;
@@ -539,18 +572,27 @@ input {
         margin: 0 2.3rem;
     }
 
-    .grid-item #header-img {
+    .grid-item #header-img-l {
         float: left;
         margin: 0.8rem;
         width: 18rem;
     }
 
-     .grid-item:
+    .grid-item #header-img-r {
+        float: right;
+        margin: 0.8rem;
+        width: 18rem;
+    }
+
     .grid-item h2 {
-        margin-left: 20rem;
-        padding-top: 1.5rem;
+        margin-left: 1.4rem;
+        padding-top: 1.4rem;
         font-size: 1.3rem;
         line-height: normal;
+    }
+
+    .postLeft h2 {
+        margin-left: 20rem;
     }
 
     .details {
@@ -561,6 +603,11 @@ input {
     }
     
     .details li {
+        margin-left: 0.4rem;
+        font-size: 0.6rem;
+    }
+
+    .postLeft li {
         margin-left: 0.5rem;
         font-size: 0.6rem;
     }
@@ -571,15 +618,23 @@ input {
     }
     
     .worksText {
-        margin-left: 20.15rem;
+        margin-left: 1.4rem;
         margin-top: 1rem;
         padding-right: 0.2rem;
         font-size: 0.53rem;
         line-height: normal;
     }
+
+    .postLeft p {
+        margin-left: 20.15rem;
+    }
     
     .worksTag ul {
-        margin: 0.2rem 0 0;
+        margin: 0.2rem 0 0 ;
+    }
+
+    #worksRight {
+        margin: 0.2rem 0 0 0.8rem;
     }
     
     .worksTag li {
@@ -588,28 +643,181 @@ input {
         padding: 0 0.33rem;
         border-radius: 6px;
         font-size: 0.45rem;
-        
+
     }
     
     .worksButton {
         width: 67px;
         height: 25px;
-        margin-left: 0.5rem;
+        margin-left: 1.3rem;
         font-size: 0.55rem;
         line-height: normal;
         border-radius: 5px;
     }
 
+    .postLeft button {
+        margin-left: 0.5rem;
+    }
+
     .aboutMe {
         margin-top: -7rem;
+        padding: 0 4.8rem 13rem 4.8rem;
+        display: grid;
+        grid-template-columns: 37.5% 57.5%;
+        column-gap: 5%;
     }
 
     .aboutMe h1 {
-        font-size: 1.4rem;
-        line-height: 1.7rem;
+        margin-top: 5rem;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
         font-weight: 700;
-        margin-top: -2.3rem;
         color: #172B4D;
+    }
+
+    .aboutPara {
+        margin-top: -0.9rem;
+        font-size: 0.5rem;
+        line-height: 0.7rem;
+    }
+
+    .aboutLink {
+        margin-top: -0.1rem;
+        font-size: 0.53rem;
+    }
+
+    .aboutSocial {
+        margin: 0 0 0.5rem 0.3rem;
+    }
+
+    .aboutInfo li {
+        margin-top: -1rem;
+    }
+
+    .aboutInfo img {
+        height: 10px;
+        margin-right: 0.45rem;
+    }
+
+    .aboutMeButton {
+        width: 82px;
+        height: 25px;
+        padding: 0;
+        border-radius: 4px;
+        font-size: 0.57rem;
+    }
+
+    .dropdownItemClick {
+        margin-top: 3rem;
+        font-size: 0.72rem;
+        line-height: normal;
+    }
+
+    .aboutMe img {
+        height: 9px;
+        margin-right: 0.5rem;
+    }
+
+    .ddList ul {
+        padding: 0;
+        margin: -1rem 0 0 -2.8rem;
+        display: flex;
+        column-gap: 0.4rem;
+    }
+
+    .ddList li {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 4rem;
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+
+    .dropdownList {
+        border-radius: 4px;
+    }
+
+    .dropdownList img {
+        margin: -0.2rem 0 0 0;
+        height: 1.7rem;
+        padding: 0.3rem;
+    }
+
+    .dropdownList p {
+        margin: -0.05rem 0 0 0.35rem;
+    }
+
+    .dropdownItem {
+        font-size: 0.69rem;
+        line-height: normal;
+    }
+
+    .dropdownTitle {
+        padding: 0.6rem 0.5rem;
+    }
+
+    .contactMe {
+        margin-top: -10rem;
+        padding-bottom: 3.2rem;
+        background-image: url(./img/deskContact.png);
+        background-size: 93%;
+        background-position: center;
+        background-position-y: 2.5rem;
+    }
+
+    .contactMe h2 {
+        margin-bottom: 0.8rem;
+        padding-top: 5.2rem;
+        font-size: 1.24rem;
+        line-height: normal;
+    }
+
+    .contactMe p {
+        padding: 0.5rem 14rem 0 14rem;
+        font-size: 0.7rem;
+        font-weight: 400;
+        line-height: 1rem;
+    }
+
+    .contactMe form {
+        padding: 0 14rem;
+    }
+
+    .contactMe ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactMe li {
+        width: 80%;
+    }
+
+    input {
+        padding-left: 0.5rem;
+        height: 1.75rem;
+        border-radius: 2px;
+        font-size: 0.7rem;
+    }
+
+    .contactMe form li + li {
+        margin-top: 0.78rem;
+    }
+
+    .contactMe textarea {
+        height: 4.5rem;
+        border-radius: 2px;
+        font-size: 0.6rem;
+    }
+
+    .contactMe button {
+        margin: 0.8rem 0;
+        width: 5rem;
+        height: 1.7rem;
+        border-radius: 4px;
+        font-size: 0.6rem;
     }
 }
 
