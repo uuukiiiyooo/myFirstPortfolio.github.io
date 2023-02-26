@@ -525,20 +525,20 @@ input {
 
     .homeContent h1 {
         padding-top: 3.7rem;
-        font-size: 3.5vw;
+        font-size: 1.7rem;
         line-height: 4vw;
         color: #091E42;
     }
 
     .contentPara {
         margin-top: -1.2rem;
-        font-size: 1.4vw;
+        font-size: 0.7rem;
     }
 
     .contentLink {
         margin-top: 0.5rem;
         margin-bottom: -0.7rem;
-        font-size: 1vw;
+        font-size: 0.55rem;
         font-weight: 500;
         color: #7F8CFF;
     }
@@ -596,7 +596,7 @@ input {
     .grid-item h2 {
         margin-left: 0;
         padding-top: 1.4rem;
-        font-size: 2.75vw;
+        font-size: 1.3rem;
         line-height: normal;
     }
 
@@ -620,7 +620,7 @@ input {
     }
 
     .postLeft li {
-        font-size: 1.2vw;
+        font-size: 0.55rem;
     }
     
     .details img {
@@ -632,7 +632,7 @@ input {
         margin-left: 0;
         margin-top: 1rem;
         padding-right: 0.2rem;
-        font-size: 1.1vw;
+        font-size: 0.55rem;
         line-height: normal;
     }
 
@@ -652,7 +652,7 @@ input {
         margin-left: 0;
         padding: 0 0.33rem;
         border-radius: 6px;
-        font-size: 0.85vw;
+        font-size: 0.4rem;
 
     }
     
@@ -660,7 +660,7 @@ input {
         width: 25%;
         height: 3.5vw;
         margin-left: 0;
-        font-size: 1.2vw;
+        font-size: 0.55rem;
         line-height: normal;
         border-radius: 5px;
     }
@@ -685,7 +685,7 @@ input {
 
     .aboutMe h1 {
         margin-top: 37%;
-        font-size: 2.7vw;
+        font-size: 1.3rem;
         line-height: 3.4vw;
         font-weight: 700;
         color: #172B4D;
@@ -693,13 +693,13 @@ input {
 
     .aboutPara {
         margin-top: -0.9rem;
-        font-size: 1.05vw;
+        font-size: 0.5rem;
         line-height: 1.5vw;
     }
 
     .aboutLink {
         margin-top: -0.4vw;
-        font-size: 1.07vw;
+        font-size: 0.5rem;
     }
 
     .socialLinks {
@@ -720,7 +720,7 @@ input {
         height: 1.4vw;
         margin-right: 0.45rem;
     }
-/*Erase this ctrl z*/
+
     .aboutMeButton {
         width: 38%;
         height: 3.3vw;
@@ -728,11 +728,11 @@ input {
         margin-top: -3%;
         margin-left: 1vw;
         border-radius: 4px;
-        font-size: 1.2vw;
+        font-size: 0.55rem;
     }
 
     .dropdownItemClick {
-        font-size: 1.5vw;
+        font-size: 0.7rem;
         line-height: normal;
     }
 
@@ -757,7 +757,7 @@ input {
         height: 8vw;
         padding-left: 0.1vw;
         padding-top: 0.5vw;
-        font-size: 1vw;
+        font-size: 0.5rem;
         font-weight: 500;
     }
 
@@ -776,7 +776,7 @@ input {
     }
 
     .dropdownItem {
-        font-size: 1.5vw;
+        font-size: 0.7rem;
         line-height: normal;
     }
 
@@ -796,13 +796,13 @@ input {
     .contactMe h2 {
         margin-bottom: 0.8rem;
         padding-top: 5.2rem;
-        font-size: 2.7vw;
+        font-size: 1.3rem;
         line-height: normal;
     }
 
     .contactMe p {
         padding: 0.5rem 30% 0 30%;
-        font-size: 1.37vw;
+        font-size: 0.66rem;
         font-weight: 400;
         line-height: 1.9vw;
     }
@@ -844,7 +844,147 @@ input {
         width: 26%;
         height: 3.24vw;
         border-radius: 4px;
-        font-size: 1.25vw;
+        font-size: 0.55rem;
     }
 }
 
+@media screen and (min-width: 1080px) {
+    .menuLogo {
+        padding-left: 10%;
+        font-size: 0.89rem;
+        padding-top: 0.5rem;
+    }
+
+    .menuText {
+        margin-right: 10%;
+        padding-top: 0.5rem;
+    }
+
+    .menuText li {
+        font-size: 0.7rem;
+        margin-left: 1.6rem;
+    }
+
+    .homeContent h1 {
+        font-size: 2.3rem;
+        line-height: 3rem;
+    }
+
+    .contentPara {
+        font-size: 0.95rem;
+    }
+
+    .contentLink {
+        font-size: 0.8rem;
+    }
+
+    .homeContent ul {
+        margin-top: 1.4rem;
+    }
+
+    .grid-item #header-img-l {
+        50%
+    }
+
+    .postLeft {
+        margin-left: 2.5%;
+        width: 48%;
+    }
+
+    .grid-item h2 {
+        font-size: 1.9rem;
+    }
+
+    .postLeft li {
+        font-size: 0.9rem;
+    }
+
+    .worksText {
+        font-size: 0.7rem;
+    }
+
+    .postLeft li {
+        font-size: 0.6rem;
+    }
+
+    .worksButton {
+        font-size: 0.8rem;
+    }
+
+    .worksTag li {
+        font-size: 0.6rem;
+    }
+
+    .grid-item #header-img-r {
+        width: 50%;
+    }
+
+    .postRight {
+        width: 48%;
+    }
+
+    .aboutMe {
+        padding: 0 9.5% 25% 9.5%;
+    }
+
+    .aboutMe {
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+
+    .aboutMe h1 {
+        font-size: 1.9rem;
+        line-height: 2.4rem;
+    }
+
+    .aboutPara {
+        font-size: 0.72rem;
+        line-height: 1.1rem;
+    }
+
+    .aboutLink {
+        font-size: 0.75rem;
+    }
+
+    .aboutMeButton {
+        font-size: 0.8rem;
+        margin-left: 1%;
+    }
+
+    .aboutMe img {
+        margin-right: 0.8vw;
+    }
+
+    .aboutMeDropdown {
+        margin-left: 4%;
+    }
+
+    .dropdownItemClick {
+        font-size: 1rem;
+    }
+
+    .ddList ul {
+        margin-left: -14%;
+    }
+
+    .ddList li {
+        font-size: 0.65rem;
+    }
+
+    .dropdownTitle {
+        font-size: 1rem;
+    }
+
+    .contactMe h2 {
+        font-size: 1.85rem;
+    }
+
+    .contactMe p {
+        font-size: 0.95rem;
+        margin-bottom: 2.5%;
+    }
+
+    .contactMe button {
+        font-size: 0.85rem;
+    }
+}
