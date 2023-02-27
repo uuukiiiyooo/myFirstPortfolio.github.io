@@ -100,7 +100,7 @@ After you're finished please remove all the comments and instructions!
 <!-- > Describe between 1-3 key features of the application. -->
 
 - **This is a mobile first and responsive website**
-- **It shows a developer portfolio**
+- **It shows a copy of [this template](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=0%3A1)**
 - **[future_feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +111,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- [Live Demo Link](#)
+- [Live Demo Link](https://uuukiiiyooo.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +171,7 @@ Example command:
 
 To run the project, execute the following command:
 
-Open in browser.
+You can check it out on the [Live Demo](https://uuukiiiyooo.github.io/)
 <!--
 Example command:
 
@@ -197,7 +197,7 @@ Example command:
 
 <!--You can deploy this project using:-->
 
-No deployment available.
+GitHub Pages
 <!--
 Example:
 
@@ -218,12 +218,12 @@ Example:
 
 - GitHub: [@uuukiiiyooo](https://github.com/uuukiiiyooo)
 - Twitter: [@uuukiiiyooo](https://twitter.com/uuukiiiyooo)
-<!-- - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+<!-- - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
-👤 **Author2**
+👤 **Naan Ahmed**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@naanmohammed](https://github.com/naanmohammed)
+<!-- - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -266,7 +266,7 @@ Thanks for your time! I'm always happy to know how to improve this project!
 
 <!-- > Give credit to everyone who inspired your codebase.-->
 
-I would like to thank my coding partner Ruri who helped me to write this section down!
+I would like to thank my coding partners for all help!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
