@@ -75,21 +75,8 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li>None</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li>None</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li>None</li>
+    <li>HTML</li>
+    <li>CSS</li>
   </ul>
 </details>
 
@@ -234,9 +221,8 @@ Example:
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- [ ] **[future_feature_1]**
-- [ ] **[future_feature_2]**
-- [ ] **[future_feature_3]**
+- [ ] **[supporting_more_screen-sizes]**
+- [ ] **[add_a_database]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
