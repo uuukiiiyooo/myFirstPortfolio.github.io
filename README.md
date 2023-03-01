@@ -75,7 +75,8 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li>windows</li>
+    <li>HTML</li>
+    <li>CSS</li>
   </ul>
 </details>
 
