@@ -45,13 +45,14 @@ li {
 }
 
 .menuText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     position: fixed;
-    width: 100%;
     height: 100%;
-    display: block;
     transform: translateY(-100%);
     transition: transform 0.2s;
-    top: -20px;
+    top: -2rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -60,23 +61,31 @@ li {
     mix-blend-mode: multiply;
     backdrop-filter: blur(7px);
     list-style: none;
-    padding-top: 4rem;
-    font-weight: 800;
+    padding: 2rem 2rem 0 2rem;
+    font-weight: 500;
+    font-size: 2rem;
 }
 
-.menuoptions {
-    display: block;
-    margin: 2rem;
-    font-size: 2rem;
-    font-weight: 600;
+.menuTextToggle {
+    transform: translateY(0%);
+}
+
+#closeMenuButton {
+    height: 2rem;
+}
+
+.menuText li {
+    padding-bottom: 1rem;
+}
+
+.menuText a {
     color: white;
     text-decoration: none;
-    margin-left: 0;
-  }
+}
 
-  .menuTextToggle {
-    transform: translateY(0%);
-  }
+#closeMenuButton {
+    align-self: flex-end;
+}
 
 .menuLvl {
     display: block;
