@@ -69,6 +69,10 @@
     padding: 0 1rem 1rem;
 }
 
+.popImageDesk {
+    display: none;
+}
+
 .popDescription {
     padding: 0 1rem;
     font-size: 15px;
@@ -172,6 +176,16 @@
         height: 5px;
     }
 
+    .popImage {
+        display: none;
+    }
+
+    .popImageDesk {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem 1rem;
+    }
+
     .descriptionContainer {
         display: grid;
         grid-template-columns: 71% 27%;
@@ -189,6 +203,8 @@
         font-size: 8.5px;
         line-height: normal;
     }
+
+    
 
     .popTechnologies ul {
         padding: 0;
