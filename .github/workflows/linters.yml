@@ -1,10 +1,6 @@
 name: Linters
 
-on:
-  push:
-    branches: 
-      - '**'
-      - '!main'
+on: push
 
 env:
   FORCE_COLOR: 1
