@@ -2,8 +2,9 @@ name: Linters
 
 on:
   push:
-    branches:
-      - 'works-popup' 
+    branches: 
+      - '**'
+      - '!main'
 
 env:
   FORCE_COLOR: 1
