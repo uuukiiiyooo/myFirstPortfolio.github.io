@@ -1,28 +1,28 @@
 .popBg {
-    position: fixed;
-    width: 100%;
-    top: -2rem;
-    left: 0;
-    bottom: 0;
-    z-index: 9;
-    backdrop-filter: blur(7px);
+position: fixed;
+width: 100%;
+top: -2rem;
+left: 0;
+bottom: 0;
+z-index: 9;
+backdrop-filter: blur(7px);
 }
 
 .popBox {
-    width: 92%;
-    height: 90%;
-    top: 3rem;
-    left: 4%;
-    position: fixed;
-    background-color: #FFFFFF;
-    border-radius: 15px;
-    overflow: scroll;
+width: 92%;
+height: 90%;
+top: 3rem;
+left: 4%;
+position: fixed;
+background-color: #FFFFFF;
+border-radius: 15px;
+overflow: scroll;
 }
 
 .popHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
 
 .popBox h3 {
