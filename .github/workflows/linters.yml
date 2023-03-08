@@ -3,7 +3,7 @@ name: Linters
 on:
   push:
     branches:
-      - works-popup 
+      - 'works-popup' 
 
 env:
   FORCE_COLOR: 1
