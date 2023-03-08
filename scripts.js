@@ -30,67 +30,67 @@ contactAnchor.addEventListener("click", function() {
 const worksData = [
     {
       name: 'Tonic',
-      closeIcon: './img/closeMenu.png',
+      closeIcon: './img/closePop.png',
       summary: ['CANOPY', 'Back End Dev', '2015'],
       dot: 'img/counter.png',
-      image: 'img/portfolio02.jpg',
+      image: 'img/popDesk.jpg',
       deskImage: 'img/portfolio02.jpg',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       deskDesc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Ruby', 'Bootstrap'],
+      technologies: ['html', 'css', 'javaScript', 'GitHub', 'Ruby', 'Bootstrap'],
       divider: 'img/divider.png',
       live: 'https://uuukiiiyooo.github.io/',
-      liveLogo: 'req/live-icon.svg',
+      liveIcon: 'img/liveIcon.svg',
       source: 'https://github.com/uuukiiiyooo/uuukiiiyooo.github.io',
-      sourceLogo: 'req/github-blue.svg',
+      sourceIcon: 'img/githubIcon.svg',
     },
     {
       name: 'Tonic',
-      closeIcon: 'img/closeMenu.png',
+      closeIcon: 'img/closePop.png',
       summary: ['CANOPY', 'Back End Dev', '2015'],
       dot: 'img/counter.png',
       image: 'img/portfolio02.jpg',
       deskImage: 'img/portfolio02.jpg',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       deskDesc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Ruby', 'Bootstrap'],
+      technologies: ['html', 'css', 'javaScript', 'GitHub', 'Ruby', 'Bootstrap'],
       divider: 'img/divider.png',
       live: 'https://uuukiiiyooo.github.io/',
-      liveLogo: 'req/live-icon.svg',
+      liveIcon: 'img/liveIcon.svg',
       source: 'https://github.com/uuukiiiyooo/uuukiiiyooo.github.io',
-      sourceLogo: 'req/github-blue.svg',
+      sourceIcon: 'img/githubIcon.svg',
     },
     {
       name: 'Tonic',
-      closeIcon: 'img/closeMenu.png',
+      closeIcon: 'img/closePop.png',
       summary: ['CANOPY', 'Back End Dev', '2015'],
       dot: 'img/counter.png',
       image: 'img/portfolio02.jpg',
       deskImage: 'img/portfolio02.jpg',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       deskDesc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Ruby', 'Bootstrap'],
+      technologies: ['html', 'css', 'javaScript', 'GitHub', 'Ruby', 'Bootstrap'],
       divider: 'img/divider.png',
       live: 'https://uuukiiiyooo.github.io/',
-      liveLogo: 'req/live-icon.svg',
+      liveIcon: 'img/liveIcon.svg',
       source: 'https://github.com/uuukiiiyooo/uuukiiiyooo.github.io',
-      sourceLogo: 'req/github-blue.svg',
+      sourceIcon: 'img/githubIcon.svg',
     },
     {
       name: 'Tonic',
-      closeIcon: 'img/closeMenu.png',
+      closeIcon: 'img/closePop.png',
       summary: ['CANOPY', 'Back End Dev', '2015'],
       dot: 'img/counter.png',
       image: 'img/portfolio02.jpg',
       deskImage: 'img/portfolio02.jpg',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
       deskDesc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'GitHub', 'Ruby', 'Bootstrap'],
+      technologies: ['html', 'css', 'javaScript', 'GitHub', 'Ruby', 'Bootstrap'],
       divider: 'img/divider.png',
       live: 'https://uuukiiiyooo.github.io/',
-      liveLogo: 'req/live-icon.svg',
+      liveIcon: 'img/liveIcon.svg',
       source: 'https://github.com/uuukiiiyooo/uuukiiiyooo.github.io',
-      sourceLogo: 'req/github-blue.svg',
+      sourceIcon: 'img/githubIcon.svg',
     },
   ];
 
@@ -110,18 +110,40 @@ worksButton.addEventListener('click', function() {
     <div class="popSummary">
         <ul>
         <li>
-            <div>${worksData[0].summary[0]}</div>
-            <img alt="" src="${worksData[0].dot}">
-            <div>${worksData[0].summary[1]}</div>
-            <img alt="" src="${worksData[0].dot}">
-            <div>${worksData[0].summary[2]}</div>
+            <div class="summaryContent">${worksData[0].summary[0]}</div>
+            <img class="summaryContent" alt="" src="${worksData[0].dot}">
+            <div class="summaryContent">${worksData[0].summary[1]}</div>
+            <img class="summaryContent" alt="" src="${worksData[0].dot}">
+            <div class="summaryContent">${worksData[0].summary[2]}</div>
         </li>
         </ul>
     </div>
     <div class="popImage">
         <img src="${worksData[0].image}">
     </div>
-    <div>${worksData[0].description}</div>
+    <div class="descriptionContainer">
+        <div class="popDescription">${worksData[0].description}</div>
+        <div class="descriptionColumn">
+            <div class="popTechnologies">
+                <ul>
+                <li>
+                    <p>${worksData[0].technologies[0]}</p>
+                </li>
+                <li>
+                    <p>${worksData[0].technologies[1]}</p>
+                </li>
+                <li>
+                    <p>${worksData[0].technologies[2]}</p>
+                </li>
+                </ul>
+            </div>
+            <div class="divider"><img src="${worksData[0].divider}"></div>
+            <div class="popButtons">
+                <button>See live <img src="${worksData[0].liveIcon}"></button>
+                <button>See Source <img src="${worksData[0].sourceIcon}"></button>
+            </div>
+        </div>
+    </div>
     `;
     body.appendChild(popBg);
     popBg.appendChild(popBox);
