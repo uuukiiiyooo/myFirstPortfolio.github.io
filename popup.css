@@ -136,6 +136,7 @@
 @media screen and (min-width: 768px) {
     .popBox {
         width: 80%;
+        height: 74%;
         margin: 24px 6%;
         border-radius: 10px;
     }
@@ -227,6 +228,7 @@
 @media screen and (min-width: 1080px) {
     .popBox {
         margin-top: 40px;
+        height: 82%;
     }
 
     .popHeader h3 {

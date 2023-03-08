@@ -96,7 +96,10 @@ const worksData = [
 
 
 const worksButton = document.querySelector('.worksButton');
-worksButton.addEventListener('click', function() {
+worksButton.addEventListener('click', openPop);
+
+
+function openPop() {
     const popBg = document.createElement('div');
     popBg.className = 'popBg';
     const popBox = document.createElement('div');
@@ -139,8 +142,8 @@ worksButton.addEventListener('click', function() {
             </div>
             <div class="divider"><img src="${worksData[0].divider}"></div>
             <div class="popButtons">
-                <button>See live <img src="${worksData[0].liveIcon}"></button>
-                <button>See Source <img src="${worksData[0].sourceIcon}"></button>
+                <button class="liveButton">See live <img src="${worksData[0].liveIcon}"></button>
+                <button class ="sourceButton">See Source <img src="${worksData[0].sourceIcon}"></button>
             </div>
         </div>
     </div>
@@ -153,4 +156,4 @@ worksButton.addEventListener('click', function() {
     closePopup.addEventListener('click', function() {
         body.removeChild(popBg);
     });
-})
+}
