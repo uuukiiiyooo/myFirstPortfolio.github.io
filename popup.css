@@ -109,7 +109,7 @@
 .popButtons {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     margin: 26px 7% 12px;
     align-items: center;
     gap: 11px;
@@ -222,4 +222,49 @@
         margin-left: 5px;
     }
     
+}
+
+@media screen and (min-width: 1080px) {
+    .popBox {
+        margin-top: 40px;
+    }
+
+    .popHeader h3 {
+        padding: 1rem 1.5rem 0;
+        font-size: 30px;
+    }
+
+    .closeIcon {
+        width: 10px;
+        height: 10px;
+        padding: 24px 24px 0;
+    }
+
+    .popSummary li {
+        font-size: 12px;
+        padding: 0 1.5rem;
+    }
+
+    .popDescription {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .descriptionColumn {
+        margin-left: 15px;
+    }
+
+    .popTechnologies li {
+        font-size: 10px;
+    }
+
+    .popButtons button {
+        width: 102px;
+        padding: 14px 0;
+        font-size: 12px;
+    }
+
+    .popButtons img {
+        width: 14px;
+    }
 }
