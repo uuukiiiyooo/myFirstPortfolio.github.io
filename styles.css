@@ -1,1032 +1,1019 @@
 body {
-    margin: 0 auto;
-    font-family: "Poppins", sans-serif;
-    background-image: url(./img/mobBg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 1.7rem;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background-image: url(./img/mobBg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 1.7rem;
 }
 
 button {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 li {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .mainMenu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background-color: #FFFFFF;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
 }
 
 .menuLogo {
-    position: relative;
-    top: 12px;
-    margin-left: 10.5%;
-    color: #5467f4;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 6%;
-    text-decoration: none;
+  position: relative;
+  top: 12px;
+  margin-left: 10.5%;
+  color: #5467f4;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 6%;
+  text-decoration: none;
 }
 
 .menuIcon {
-    position: relative;
-    top: 12px;
-    width: 22px;
-    right: 24px;
+  position: relative;
+  top: 12px;
+  width: 22px;
+  right: 24px;
 }
 
 .menuText {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: fixed;
-    height: 100%;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: -2rem;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9;
-    background-color: #6070ff;
-    mix-blend-mode: multiply;
-    backdrop-filter: blur(7px);
-    list-style: none;
-    padding: 2rem 2rem 0 2rem;
-    font-weight: 500;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  height: 100%;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: -2rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(7px);
+  list-style: none;
+  padding: 2rem 2rem 0 2rem;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .menuTextToggle {
-    transform: translateY(0%);
-}
-
-#closeMenuButton {
-    height: 2rem;
+  transform: translateY(0%);
 }
 
 .menuText li {
-    padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .menuText a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #closeMenuButton {
-    align-self: flex-end;
+  height: 2rem;
+  align-self: flex-end;
 }
 
 .menuLvl {
-    display: block;
-    background-color: #6070FF;
-    width: 100%;
-    height: 2.5px;
-    margin: 4px;
-    border-radius: 2px;
+  display: block;
+  background-color: #6070ff;
+  width: 100%;
+  height: 2.5px;
+  margin: 4px;
+  border-radius: 2px;
 }
 
 .homeContent {
-    padding-left: 8%;
-    padding-right: 8%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 .homeContent h1 {
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 46px;
-    padding-top: 18%;
-    color: #172B4D;
-    ;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 46px;
+  padding-top: 18%;
+  color: #172b4d;
 }
 
 .contentPara {
-    margin-top: -1.5rem;
-    margin-bottom: 1vw;
-    font-size: 0.9rem;
-    color: #344563;
+  margin-top: -1.5rem;
+  margin-bottom: 1vw;
+  font-size: 0.9rem;
+  color: #344563;
 }
 
 .contentLink {
-    margin-top: -2%;
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: #596cda;
-    text-decoration: none;
+  margin-top: -2%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #596cda;
+  text-decoration: none;
 }
 
 .homeContent li {
-    list-style-type: none;
-    margin-left: -2.5rem;
-    margin-top: -0.6rem;
+  list-style-type: none;
+  margin-left: -2.5rem;
+  margin-top: -0.6rem;
 }
 
 .homeContent img {
-    height: 0.99rem;
-    margin-right: 0.95rem;
-    transition: height 0.5s;
+  height: 0.99rem;
+  margin-right: 0.95rem;
+  transition: height 0.5s;
 }
 
 .homeContent img:hover {
-    height: 1.3rem;
+  height: 1.3rem;
 }
 
-/*Works and about me section*/
-
 .grid-container {
-    display: grid;
-    grid-template-rows: repeat(4, auto);
-    grid-template-columns: 1fr;
-    justify-content: center;
-    background-color: #E5E5E5;
-    padding: 7rem 2rem 12rem 2rem;
-    row-gap: 5rem;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-columns: 1fr;
+  justify-content: center;
+  background-color: #e5e5e5;
+  padding: 7rem 2rem 12rem 2rem;
+  row-gap: 5rem;
 }
 
 .grid-item {
-    display: flex;
-    flex-direction: column;
-    border-radius: 16px;
-    border: 1px solid #DFE1E6;
-    background-color: #FFFFFF;
-    padding-bottom: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  border: 1px solid #dFe1e6;
+  background-color: #fff;
+  padding-bottom: 0.2rem;
 }
 
 .grid-item img {
-    display: flex;
-    justify-content: center;
-    margin: 16px;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
 }
 
 .grid-item h3 {
-    display: flex;
-    font-size: 33px;
-    line-height: 44px;
-    font-weight: 700;
-    margin: -3px 16px;
-    color: #172B4D;
+  display: flex;
+  font-size: 33px;
+  line-height: 44px;
+  font-weight: 700;
+  margin: -3px 16px;
+  color: #172B4D;
 }
 
 .details {
-    display: flex;
-    font-size: 13px;
-    line-height: 16px;
-    font-weight: 600;
-    margin: 0 16px;
+  display: flex;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 600;
+  margin: 0 16px;
 }
 
 .details ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .details li {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    margin-top: 7px;
-    color: #344563;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  color: #344563;
 }
 
 .details img {
-    margin: 16px 11px;
+  margin: 16px 11px;
 }
 
 .worksText {
-    font-size: 15px;
-    line-height: 24px;
-    font-weight: 400;
-    margin: 0rem 1rem;
-    color: #344563;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0rem 1rem;
+  color: #344563;
 }
 
 .worksTag {
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
 }
 
 .worksTag ul {
-    margin: 2px 16px;
-    padding: 0;
-    display: flex;
+  margin: 2px 16px;
+  padding: 0;
+  display: flex;
 }
 
 .worksTag li {
-    list-style-type: none;
-    background-color:#EBEBFF;
-    padding: 0.2% 1.5%;
-    margin-right: 8px;
-    margin-top: 5px;
-    border-radius: 8px;
-    color: #435ce7;
+  list-style-type: none;
+  background-color:#ebebff;
+  padding: 0.2% 1.5%;
+  margin-right: 8px;
+  margin-top: 5px;
+  border-radius: 8px;
+  color: #435ce7;
 }
 
 .worksButton {
-    width: 124px;
-    height: 48px;
-    margin: 20px 16px;
-    font-size: 17px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #396DF2;
-    border: 1px solid #6070FF;
-    border-radius: 8px;
-    background-color: #FFFFFF;
+  width: 124px;
+  height: 48px;
+  margin: 20px 16px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .aboutMe {
-    padding: 114px 24px 55px 24px;
-    background-color: #FFFFFF;
-    border-radius: 0 65px 0 0;
-    margin-top: -80px;
+  padding: 114px 24px 55px 24px;
+  background-color: #fff;
+  border-radius: 0 65px 0 0;
+  margin-top: -80px;
 }
 
 .aboutMe h2 {
-    font-size: 40px;
-    line-height: 52px;
-    font-weight: 700;
-    margin-top: 0;
-    color: #172B4D;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  margin-top: 0;
+  color: #172b4d;
 }
 
 .aboutPara {
-    margin-top: -1.2rem;
-    font-size: 15px;
-    line-height: 24px;
-    color: #344563;
+  margin-top: -1.2rem;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .aboutLink {
-    margin-top: -0.8rem;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #596cda;
+  margin-top: -0.8rem;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #596cda;
 }
 
 .aboutMe li {
-    list-style-type: none;
-    margin-left: -5vw;
-    color: #253858;
+  list-style-type: none;
+  margin-left: -5vw;
+  color: #253858;
 }
 
 .aboutMe img {
-    height: 18px;
-    margin-right: 23px;
+  height: 18px;
+  margin-right: 23px;
 }
 
 .aboutMeButton {
-    width: 162px;
-    height: 48px;
-    margin: 0px;
-    padding: 12px;
-    font-size: 17px;
-    line-height: 24px;
-    font-weight: 500;
-    color: #396DF2;
-    border: 1px solid #6070FF;
-    border-radius: 8px;
-    background-color: #FFFFFF;
+  width: 162px;
+  height: 48px;
+  margin: 0px;
+  padding: 12px;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .aboutMeDropdown {
-    margin-top: 15%;
-    display: block;
+  margin-top: 15%;
+  display: block;
 }
 
 .dropdownItemClick {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
 }
 
 .dropdownItem {
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: auto;
-    border-bottom: 1px solid #DFE1E6;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .dropdownItem li {
-    margin-bottom: 12px;
-    margin-left: -43px;
-    padding: 0;
+  margin-bottom: 12px;
+  margin-left: -43px;
+  padding: 0;
 }
 
 .ddList li {
-    margin-left: -5rem;
-    height: 3.8rem;
-    margin-bottom: 0.8rem;
+  margin-left: -5rem;
+  height: 3.8rem;
+  margin-bottom: 0.8rem;
 }
 
 .ddList p {
-    margin-left: -20px;
+  margin-left: -20px;
 }
 
 .dropdownList {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: auto;
-    height: 67px;
-    background-color: #f7f7f9;
-    border-radius: 8px;
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  height: 67px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
 }
 
 .dropdownList img {
-    height: 48px;
-    padding: 9px 12px;
+  height: 48px;
+  padding: 9px 12px;
 }
 
 .dropdownTitle {
-    display: block;
-    width: 300px;
-    padding: 23px 0px;
-    
+  display: block;
+  width: 300px;
+  padding: 23px 0px;  
 }
 
 .aboutArrowD {
-    height: 13px;
-    margin-top: -1rem;
+  height: 13px;
+  margin-top: -1rem;
 }
 
 .aboutArrowF {
-    height: 13px;
-    margin-top: -0.1rem;
+  height: 13px;
+  margin-top: -0.1rem;
 }
 
-/*Adding this class just to visually represent the onclick action*/
+/* Adding this class just to visually represent the onclick action */
 .dropdownTitleClick {
-    display: block  ;
-    padding: 20px 0 34px 0;
+  display: block  ;
+  padding: 20px 0 34px 0;
 }
 
 .contactMe {
-    padding-bottom: 2.5rem;
-    background: #5467f4;
-    background-position: right;
-    background-image: url('img/mobContact.png');
-    background-repeat: no-repeat;
-    border-top-left-radius: 80px;
+  padding-bottom: 2.5rem;
+  background: #5467f4;
+  background-position: right;
+  background-image: url('img/mobContact.png');
+  background-repeat: no-repeat;
+  border-top-left-radius: 80px;
 }
 
 .contactMe h2 {
-    display: block;
-    padding-top: 6.5rem;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    color: #FFFFFF;
-    text-align: center;
+  display: block;
+  padding-top: 6.5rem;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
 }
 
 .contactMe p {
-    padding: 0 24px;
-    margin-top: -1rem;
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 28px;
-    font-weight: 400;
-    text-align: center;
+  padding: 0 24px;
+  margin-top: -1rem;
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .contactMe form {
-    display: flex;
-    justify-content: center;
-    padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
 }
 
 .contactMe ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 
 .contactMe li {
-    display: flex;
-    justify-content: center;
-    padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  padding: 0 24px;
 }
 
 .contactMe form li + li{
-    margin-top: 1rem;
+  margin-top: 1rem;
   }
 
 input {
-    width: 100%;
-    height: 46px;
-    padding-left: 15px;
-    border: 1px solid #CFD8DC;
-    border-radius: 8px;
-    box-sizing: border-box;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 20px;
+  width: 100%;
+  height: 46px;
+  padding-left: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
   }
 
 .contactMe textarea {
-    width: 100%;
-    height: 155px;
-    padding: 15px 0 0 15px;
-    border: none;
-    border: 1px solid #CFD8DC;
-    border-radius: 8px;
-    font-family: "Poppins", sans-serif;
-    font-size: 15px;
-    line-height: 14px;
-    color:#B3BAC5;
+  width: 100%;
+  height: 155px;
+  padding: 15px 0 0 15px;
+  border: none;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  color:#B3BAC5;
 }
 
 .contactMe button {
-    width: 142px;
-    height: 48px;
-    margin-top: 1.4rem;
-    margin-left: 24px;
-    padding: 0;
-    background-color: #FFFFFF;
-    border: 1px solid #596cda;
-    border-radius: 8px;
-    font-family: 'Poppins';
-    font-size: 17px;
-    font-weight: 500;
-    color: #6070FF;
-    transition: background-color 0.5s, color 0.5s;
+  width: 142px;
+  height: 48px;
+  margin-top: 1.4rem;
+  margin-left: 24px;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #596cda;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-size: 17px;
+  font-weight: 500;
+  color: #6070FF;
+  transition: background-color 0.5s, color 0.5s;
   }
 
-  .contactMe button:hover {
-    background-color: #6070FF;
-    border: none;
-    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
-    color: #FFFFFF;
-  }
-
+.contactMe button:hover {
+  background-color: #6070FF;
+  border: none;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  color: #fff;
+}
 
 @media screen and (min-width: 375px) {
-    body {
-        background-image: url(./img/mobBg.png);
-        background-repeat: no-repeat;
-        background-size: initial;
-        background-position-y: 3rem;
-    }
-    
-    .homeContent {
-        padding-left: 6%;
-        padding-right: 6%;
-    }
+  body {
+    background-image: url(./img/mobBg.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position-y: 3rem;
+  }
 
-    .homeContent h1 {
-        font-size: 2.55rem;
-        line-height: 47px;
-        padding-top: 21%;
-        font-weight: 700;
-    }
+  .homeContent {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
 
-    .contentPara {
-        margin-top: -1rem;
-        font-size: 1rem;
-    }
+  .homeContent h1 {
+    font-size: 2.55rem;
+    line-height: 47px;
+    padding-top: 21%;
+    font-weight: 700;
+  }
 
-    .contentLink {
-        margin-top: -2.5%;
-        font-size: 0.9rem;
-        font-weight: 500;
-        color: #7F8CFF;
-    }
+  .contentPara {
+    margin-top: -1rem;
+    font-size: 1rem;
+  }
 
-    .homeContent li {
-        list-style-type: none;
-        margin-left: -2.5rem;
-    }
+  .contentLink {
+    margin-top: -2.5%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #7f8cff;
+  }
 
-    .homeContent img {
-        height: 0.95rem;
-        margin-right: 1rem;
-    }
+  .homeContent li {
+    list-style-type: none;
+    margin-left: -2.5rem;
+  }
+
+  .homeContent img {
+    height: 0.95rem;
+    margin-right: 1rem;
+  }
 }
 
 
 @media screen and (min-width: 768px) {
-    body {
-        background-image: none;
-        background-color: #E5E5E5;
-    }
+  body {
+    background-image: none;
+    background-color: #e5e5e5;
+  }
 
-    .menuLogo {
-        position: initial;
-        font-size: 0.8rem;
-    }
+  .menuLogo {
+    position: initial;
+    font-size: 0.8rem;
+  }
 
-    .menuIcon {
-        display: none;
-    }
+  .menuIcon {
+    display: none;
+  }
 
-    .menuText {
-        margin-right: 7.5%;
-        display: flex;
-        list-style: none;
-        font-size: 0.65rem;
-        font-weight: 400;
-    }
+  .menuText {
+    margin-right: 7.5%;
+    display: flex;
+    list-style: none;
+    font-size: 0.65rem;
+    font-weight: 400;
+  }
 
-    .menuText li {
-        margin-left: 1.1rem;
-    }
-    
-    .homeContent {
-        padding: 10% 18% 13%;
-        background-color: #FFFFFF;
-        background-image: url(./img/deskHome.png);
-        background-repeat: no-repeat;
-        background-size: 97%;
-        background-position-x: 1.05rem;
-        background-position-y: 2.8rem;
-        border-bottom-left-radius: 80px;
-    }
+  .menuText li {
+    margin-left: 1.1rem;
+  }
 
-    .homeContent h1 {
-        padding-top: 3.7rem;
-        font-size: 1.7rem;
-        line-height: 4vw;
-        color: #091E42;
-    }
+  .homeContent {
+    padding: 10% 18% 13%;
+    background-color: #FFFFFF;
+    background-image: url(./img/deskHome.png);
+    background-repeat: no-repeat;
+    background-size: 97%;
+    background-position-x: 1.05rem;
+    background-position-y: 2.8rem;
+    border-bottom-left-radius: 80px;
+  }
 
-    .contentPara {
-        margin-top: -1.2rem;
-        font-size: 0.7rem;
-    }
+  .homeContent h1 {
+    padding-top: 3.7rem;
+    font-size: 1.7rem;
+    line-height: 4vw;
+    color: #091E42;
+  }
 
-    .contentLink {
-        margin-top: 0.5rem;
-        margin-bottom: -0.7rem;
-        font-size: 0.55rem;
-        font-weight: 500;
-        color: #7F8CFF;
-    }
+  .contentPara {
+    margin-top: -1.2rem;
+    font-size: 0.7rem;
+  }
 
-    .homeContent ul {
-        margin-top: 0;
-        padding: 1% 3.4%;
-    }
+  .contentLink {
+    margin-top: 0.5rem;
+    margin-bottom: -0.7rem;
+    font-size: 0.55rem;
+    font-weight: 500;
+    color: #7f8cff;
+  }
 
-    .homeContent li {
-        list-style-type: none;
-        margin-left: -3.5%;
-    }
-    
-    .homeContent img {
-        height: 1.4vw;
-        margin-right: 0.45rem;
-    }
+  .homeContent ul {
+    margin-top: 0;
+    padding: 1% 3.4%;
+  }
 
-    .grid-container {
-        padding: 10% 10.5% 26%;
-        row-gap: 9%;
-    }
+  .homeContent li {
+    list-style-type: none;
+    margin-left: -3.5%;
+  }
 
-    .grid-item {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        border-radius: 16px;
-        border: 1px solid #DFE1E6;
-        background-color: #FFFFFF;
-    }
+  .homeContent img {
+    height: 1.4vw;
+    margin-right: 0.45rem;
+  }
 
-    .contentRight {
-        display: flex;
-        flex-direction: row-reverse;
-        width: 100%;
-    }
+  .grid-container {
+    padding: 10% 10.5% 26%;
+    row-gap: 9%;
+  }
 
-    .postRight {
-        margin-left: 3.5%;
-    }
+  .grid-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 16px;
+    border: 1px solid #dfe1e6;
+    background-color: #fff;
+  }
 
-    .header-img-l {
-        float: left;
-        margin: 0.8rem;
-        width: 47%;
-    }
+  .contentRight {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
 
-    .header-img-r {
-        float: right;
-        margin: 0.8rem;
-        width: 47%;
-    }
+  .postRight {
+    margin-left: 3.5%;
+  }
 
-    .grid-item h3 {
-        margin-left: 0;
-        padding-top: 1.4rem;
-        font-size: 1.3rem;
-        line-height: normal;
-    }
+  .header-img-l {
+    float: left;
+    margin: 0.8rem;
+    width: 47%;
+  }
 
-    .postLeft {
-        margin-left: 2%;
-    }
+  .header-img-r {
+    float: right;
+    margin: 0.8rem;
+    width: 47%;
+  }
 
-    .postLeft h3 {
-        margin-left: 0;
-    }
+  .grid-item h3 {
+    margin-left: 0;
+    padding-top: 1.4rem;
+    font-size: 1.3rem;
+    line-height: normal;
+  }
 
-    .details {
-        font-size: 13px;
-        line-height: 16px;
-        font-weight: 600;
-        margin-left: 0;
-    }
-    
-    .details li {
-        font-size: 0.6rem;
-    }
+  .postLeft {
+    margin-left: 2%;
+  }
 
-    .postLeft li {
-        font-size: 0.55rem;
-    }
-    
-    .details img {
-        width: 0.3rem;
-        margin: 0 6px;
-    }
-    
-    .worksText {
-        margin-left: 0;
-        margin-top: 1rem;
-        padding-right: 0.2rem;
-        font-size: 0.55rem;
-        line-height: normal;
-    }
+  .postLeft h3 {
+    margin-left: 0;
+  }
 
-    .postLeft p {
-        margin-left: 0;
-    }
-    
-    .worksTag ul {
-        margin: 0.2rem 0 0 0;
-    }
+  .details {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+    margin-left: 0;
+  }
 
-    #worksRight {
-        margin: 3% 0;
-    }
-    
-    .worksTag li {
-        margin-left: 0;
-        padding: 0 0.33rem;
-        border-radius: 6px;
-        font-size: 0.4rem;
+  .details li {
+    font-size: 0.6rem;
+  }
 
-    }
-    
-    .worksButton {
-        width: 25%;
-        height: 3.5vw;
-        margin-left: 0;
-        font-size: 0.55rem;
-        line-height: normal;
-        border-radius: 5px;
-    }
+  .postLeft li {
+    font-size: 0.55rem;
+  }
 
-    .postLeft button {
-        margin-left: 0;
-    }
+  .details img {
+    width: 0.3rem;
+    margin: 0 6px;
+  }
 
-    .aboutMe {
-        margin-top: 20%;
-        padding: 0 4.8rem 13rem 4.8rem;
-        display: grid;
-        grid-template-columns: 37.5% 57.5%;
-        column-gap: 5%;
-    }
+  .worksText {
+    margin-left: 0;
+    margin-top: 1rem;
+    padding-right: 0.2rem;
+    font-size: 0.55rem;
+    line-height: normal;
+  }
 
-    .aboutInfo {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
+  .postLeft p {
+    margin-left: 0;
+  }
 
-    .aboutMe h2 {
-        margin-top: 37%;
-        font-size: 1.3rem;
-        line-height: 3.4vw;
-        font-weight: 700;
-        color: #172B4D;
-    }
+  .worksTag ul {
+    margin: 0.2rem 0 0 0;
+  }
 
-    .aboutPara {
-        margin-top: -0.9rem;
-        font-size: 0.5rem;
-        line-height: 1.5vw;
-    }
+  #worksRight {
+    margin: 3% 0;
+  }
 
-    .aboutLink {
-        margin-top: -0.4vw;
-        font-size: 0.5rem;
-    }
+  .worksTag li {
+    margin-left: 0;
+    padding: 0 0.33rem;
+    border-radius: 6px;
+    font-size: 0.4rem;
+  }
 
-    .socialLinks {
-        margin: 0;
-        padding: 0;
-    }
+  .worksButton {
+    width: 25%;
+    height: 3.5vw;
+    margin-left: 0;
+    font-size: 0.55rem;
+    line-height: normal;
+    border-radius: 5px;
+  }
 
-    .aboutSocial {
-        padding-left: 6vw;
-        margin-top: 3%;
-    }
+  .postLeft button {
+    margin-left: 0;
+  }
 
-    .aboutInfo li {
-        margin-top: -1rem;
-    }
+  .aboutMe {
+    margin-top: 20%;
+    padding: 0 4.8rem 13rem 4.8rem;
+    display: grid;
+    grid-template-columns: 37.5% 57.5%;
+    column-gap: 5%;
+  }
 
-    .aboutInfo img {
-        height: 1.4vw;
-        margin-right: 0.45rem;
-    }
+  .aboutInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-    .aboutMeButton {
-        width: 38%;
-        height: 3.3vw;
-        padding: 0;
-        margin-top: -3%;
-        margin-left: 1vw;
-        border-radius: 4px;
-        font-size: 0.55rem;
-    }
+  .aboutMe h2 {
+    margin-top: 37%;
+    font-size: 1.3rem;
+    line-height: 3.4vw;
+    font-weight: 700;
+    color: #172B4D;
+  }
 
-    .dropdownItemClick {
-        font-size: 0.7rem;
-        line-height: normal;
-    }
+  .aboutPara {
+    margin-top: -0.9rem;
+    font-size: 0.5rem;
+    line-height: 1.5vw;
+  }
 
-    .aboutMe img {
-        height: 1.3vw;
-        margin-right: 1vw;
-    }
+  .aboutLink {
+    margin-top: -0.4vw;
+    font-size: 0.5rem;
+  }
 
-    .ddList ul {
-        padding: 0;
-        margin: -1rem 0 0 -2.8rem;
-        display: flex;
-        column-gap: 1.7%;
-    }
+  .socialLinks {
+    margin: 0;
+    padding: 0;
+  }
 
-    .ddList li {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 18%;
-        height: 8vw;
-        padding-left: 0.1vw;
-        padding-top: 0.5vw;
-        font-size: 0.5rem;
-        font-weight: 500;
-    }
+  .aboutSocial {
+    padding-left: 6vw;
+    margin-top: 3%;
+  }
 
-    .dropdownList {
-        border-radius: 4px;
-    }
+  .aboutInfo li {
+    margin-top: -1rem;
+  }
 
-    .dropdownList img {
-        margin: -0.2rem 0 0 0;
-        height: 48%;
-        padding: 0.3rem;
-    }
+  .aboutInfo img {
+    height: 1.4vw;
+    margin-right: 0.45rem;
+  }
 
-    .dropdownList p {
-        margin: -0.05rem 0 0 0.35rem;
-    }
+  .aboutMeButton {
+    width: 38%;
+    height: 3.3vw;
+    padding: 0;
+    margin-top: -3%;
+    margin-left: 1vw;
+    border-radius: 4px;
+    font-size: 0.55rem;
+  }
 
-    .dropdownItem {
-        font-size: 0.7rem;
-        line-height: normal;
-    }
+  .dropdownItemClick {
+    font-size: 0.7rem;
+    line-height: normal;
+  }
 
-    .dropdownTitle {
-        padding: 4% 0.5rem;
-    }
+  .aboutMe img {
+    height: 1.3vw;
+    margin-right: 1vw;
+  }
 
-    .contactMe {
-        margin-top: -10rem;
-        padding-bottom: 3.2rem;
-        background-image: url(./img/deskContact.png);
-        background-size: 93%;
-        background-position: center;
-        background-position-y: 2.5rem;
-    }
+  .ddList ul {
+    padding: 0;
+    margin: -1rem 0 0 -2.8rem;
+    display: flex;
+    column-gap: 1.7%;
+  }
 
-    .contactMe h2 {
-        margin-bottom: 0.8rem;
-        padding-top: 5.2rem;
-        font-size: 1.3rem;
-        line-height: normal;
-    }
+  .ddList li {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 18%;
+    height: 8vw;
+    padding-left: 0.1vw;
+    padding-top: 0.5vw;
+    font-size: 0.5rem;
+    font-weight: 500;
+  }
 
-    .contactMe p {
-        padding: 0.5rem 30% 0 30%;
-        font-size: 0.66rem;
-        font-weight: 400;
-        line-height: 1.9vw;
-    }
+  .dropdownList {
+    border-radius: 4px;
+  }
 
-    .contactMe form {
-        margin: -2.8% auto;
-        width: 38vw;
-    }
+  .dropdownList img {
+    margin: -0.2rem 0 0 0;
+    height: 48%;
+    padding: 0.3rem;
+  }
 
-    .contactMe ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .dropdownList p {
+    margin: -0.05rem 0 0 0.35rem;
+  }
 
-    .contactMe li {
-        width: 80%;
-    }
+  .dropdownItem {
+    font-size: 0.7rem;
+    line-height: normal;
+  }
 
-    input {
-        padding-left: 0.5rem;
-        height: 1.75rem;
-        border-radius: 2px;
-        font-size: 0.7rem;
-    }
+  .dropdownTitle {
+    padding: 4% 0.5rem;
+  }
 
-    .contactMe form li + li {
-        margin-top: 4.5%;
-    }
+  .contactMe {
+    margin-top: -10rem;
+    padding-bottom: 3.2rem;
+    background-image: url(./img/deskContact.png);
+    background-size: 93%;
+    background-position: center;
+    background-position-y: 2.5rem;
+  }
 
-    .contactMe textarea {
-        height: 4.5rem;
-        border-radius: 2px;
-        font-size: 0.6rem;
-    }
+  .contactMe h2 {
+    margin-bottom: 0.8rem;
+    padding-top: 5.2rem;
+    font-size: 1.3rem;
+    line-height: normal;
+  }
 
-    .contactMe button {
-        margin: 0.8rem 0;
-        width: 26%;
-        height: 3.24vw;
-        border-radius: 4px;
-        font-size: 0.55rem;
-    }
+  .contactMe p {
+    padding: 0.5rem 30% 0 30%;
+    font-size: 0.66rem;
+    font-weight: 400;
+    line-height: 1.9vw;
+  }
+
+  .contactMe form {
+    margin: -2.8% auto;
+    width: 38vw;
+  }
+
+  .contactMe ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactMe li {
+    width: 80%;
+  }
+
+  input {
+    padding-left: 0.5rem;
+    height: 1.75rem;
+    border-radius: 2px;
+    font-size: 0.7rem;
+  }
+
+  .contactMe form li + li {
+    margin-top: 4.5%;
+  }
+
+  .contactMe textarea {
+    height: 4.5rem;
+    border-radius: 2px;
+    font-size: 0.6rem;
+  }
+
+  .contactMe button {
+    margin: 0.8rem 0;
+    width: 26%;
+    height: 3.24vw;
+    border-radius: 4px;
+    font-size: 0.55rem;
+  }
 }
 
 @media screen and (min-width: 1080px) {
-    .menuLogo {
-        position: initial;
-        font-size: 0.89rem;
-        padding-top: 0.5rem;
-    }
+  .menuLogo {
+    position: initial;
+    font-size: 0.89rem;
+    padding-top: 0.5rem;
+  }
 
-    .menuText {
-        margin-right: 10%;
-        padding-top: 0.5rem;
-    }
+  .menuText {
+    margin-right: 10%;
+    padding-top: 0.5rem;
+  }
 
-    .menuText li {
-        font-size: 0.7rem;
-        margin-left: 1.6rem;
-    }
+  .menuText li {
+    font-size: 0.7rem;
+    margin-left: 1.6rem;
+  }
 
-    .homeContent h1 {
-        font-size: 2.3rem;
-        line-height: 3rem;
-    }
+  .homeContent h1 {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
 
-    .contentPara {
-        font-size: 0.95rem;
-    }
+  .contentPara {
+    font-size: 0.95rem;
+  }
 
-    .contentLink {
-        font-size: 0.8rem;
-    }
+  .contentLink {
+    font-size: 0.8rem;
+  }
 
-    .homeContent ul {
-        margin-top: 1vw;
-    }
+  .homeContent ul {
+    margin-top: 1vw;
+  }
 
-    .postLeft {
-        margin-left: 2.5%;
-        width: 48%;
-    }
+  .postLeft {
+    margin-left: 2.5%;
+    width: 48%;
+  }
 
-    .grid-item h3 {
-        font-size: 1.9rem;
-    }
+  .grid-item h3 {
+    font-size: 1.9rem;
+  }
 
-    .postLeft li {
-        font-size: 0.9rem;
-    }
+  .postLeft li {
+    font-size: 0.9rem;
+  }
 
-    .worksText {
-        font-size: 0.7rem;
-    }
+  .worksText {
+    font-size: 0.7rem;
+  }
 
-    .postLeft li {
-        font-size: 0.6rem;
-    }
+  .postLeft li {
+    font-size: 0.6rem;
+  }
 
-    .worksButton {
-        font-size: 0.8rem;
-    }
+  .worksButton {
+    font-size: 0.8rem;
+  }
 
-    .worksTag li {
-        font-size: 0.6rem;
-    }
+  .worksTag li {
+    font-size: 0.6rem;
+  }
 
-    .grid-item #header-img-r {
-        width: 50%;
-    }
+  .grid-item #header-img-r {
+    width: 50%;
+  }
 
-    .postRight {
-        width: 48%;
-    }
+  .postRight {
+    width: 48%;
+  }
 
-    .aboutMe {
-        padding: 0 9.5% 25% 9.5%;
-    }
+  .aboutMe {
+    padding: 0 9.5% 25% 9.5%;
+  }
 
-    .aboutMe {
-        font-size: 2rem;
-        line-height: 2.4rem;
-    }
+  .aboutMe {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
 
-    .aboutMe h2 {
-        font-size: 1.9rem;
-        line-height: 2.4rem;
-    }
+  .aboutMe h2 {
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+  }
 
-    .aboutPara {
-        font-size: 0.72rem;
-        line-height: 1.1rem;
-    }
+  .aboutPara {
+    font-size: 0.72rem;
+    line-height: 1.1rem;
+  }
 
-    .aboutLink {
-        font-size: 0.75rem;
-    }
+  .aboutLink {
+    font-size: 0.75rem;
+  }
 
-    .aboutMeButton {
-        font-size: 0.8rem;
-        margin-left: 1%;
-    }
+  .aboutMeButton {
+    font-size: 0.8rem;
+    margin-left: 1%;
+  }
 
-    .aboutMe img {
-        margin-right: 0.8vw;
-    }
+  .aboutMe img {
+    margin-right: 0.8vw;
+  }
 
-    .aboutMeDropdown {
-        margin-left: 4%;
-    }
+  .aboutMeDropdown {
+    margin-left: 4%;
+  }
 
-    .dropdownItemClick {
-        font-size: 1rem;
-    }
+  .dropdownItemClick {
+    font-size: 1rem;
+  }
 
-    .ddList ul {
-        margin-left: -14%;
-    }
+  .ddList ul {
+    margin-left: -14%;
+  }
 
-    .ddList li {
-        font-size: 0.65rem;
-    }
+  .ddList li {
+    font-size: 0.65rem;
+  }
 
-    .dropdownTitle {
-        font-size: 1rem;
-    }
+  .dropdownTitle {
+    font-size: 1rem;
+  }
 
-    .contactMe h3 {
-        font-size: 1.85rem;
-    }
+  .contactMe h3 {
+    font-size: 1.85rem;
+  }
 
-    .contactMe p {
-        font-size: 0.95rem;
-        margin-bottom: 2.5%;
-    }
+  .contactMe p {
+    font-size: 0.95rem;
+    margin-bottom: 2.5%;
+  }
 
-    .contactMe button {
-        font-size: 0.85rem;
-    }
+  .contactMe button {
+    font-size: 0.85rem;
+  }
 }
