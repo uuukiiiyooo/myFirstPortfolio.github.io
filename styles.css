@@ -129,10 +129,6 @@ li {
   transition: height 0.5s;
 }
 
-.homeContent img:hover {
-  height: 1.3rem;
-}
-
 .grid-container {
   display: grid;
   grid-template-rows: repeat(4, auto);
@@ -147,7 +143,7 @@ li {
   display: flex;
   flex-direction: column;
   border-radius: 16px;
-  border: 1px solid #dFe1e6;
+  border: 1px solid #dfe1e6;
   background-color: #fff;
   padding-bottom: 0.2rem;
 }
@@ -164,7 +160,7 @@ li {
   line-height: 44px;
   font-weight: 700;
   margin: -3px 16px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .details {
@@ -196,7 +192,7 @@ li {
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
-  margin: 0rem 1rem;
+  margin: 0 1rem;
   color: #344563;
 }
 
@@ -214,7 +210,7 @@ li {
 
 .worksTag li {
   list-style-type: none;
-  background-color:#ebebff;
+  background-color: #ebebff;
   padding: 0.2% 1.5%;
   margin-right: 8px;
   margin-top: 5px;
@@ -279,7 +275,7 @@ li {
 .aboutMeButton {
   width: 162px;
   height: 48px;
-  margin: 0px;
+  margin: 0;
   padding: 12px;
   font-size: 17px;
   line-height: 24px;
@@ -353,7 +349,7 @@ li {
 .dropdownTitle {
   display: block;
   width: 300px;
-  padding: 23px 0px;  
+  padding: 23px 0;
 }
 
 .aboutArrowD {
@@ -368,7 +364,7 @@ li {
 
 /* Adding this class just to visually represent the onclick action */
 .dropdownTitleClick {
-  display: block  ;
+  display: block;
   padding: 20px 0 34px 0;
 }
 
@@ -407,10 +403,10 @@ li {
   padding-top: 1.5rem;
 }
 
-.contactMe ul{
+.contactMe ul {
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 100%;
 }
 
@@ -420,9 +416,9 @@ li {
   padding: 0 24px;
 }
 
-.contactMe form li + li{
+.contactMe form li + li {
   margin-top: 1rem;
-  }
+}
 
 input {
   width: 100%;
@@ -431,24 +427,24 @@ input {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 20px;
-  }
+}
 
 .contactMe textarea {
   width: 100%;
   height: 155px;
   padding: 15px 0 0 15px;
   border: none;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   line-height: 14px;
-  color:#B3BAC5;
+  color: #b3bac5;
 }
 
 .contactMe button {
@@ -460,18 +456,22 @@ input {
   background-color: #fff;
   border: 1px solid #596cda;
   border-radius: 8px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, sans-serif;
   font-size: 17px;
   font-weight: 500;
-  color: #6070FF;
+  color: #6070ff;
   transition: background-color 0.5s, color 0.5s;
-  }
+}
 
 .contactMe button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
   border: none;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   color: #fff;
+}
+
+.homeContent img:hover {
+  height: 1.3rem;
 }
 
 @media screen and (min-width: 375px) {
@@ -517,7 +517,6 @@ input {
   }
 }
 
-
 @media screen and (min-width: 768px) {
   body {
     background-image: none;
@@ -547,7 +546,7 @@ input {
 
   .homeContent {
     padding: 10% 18% 13%;
-    background-color: #FFFFFF;
+    background-color: #fff;
     background-image: url(./img/deskHome.png);
     background-repeat: no-repeat;
     background-size: 97%;
@@ -560,7 +559,7 @@ input {
     padding-top: 3.7rem;
     font-size: 1.7rem;
     line-height: 4vw;
-    color: #091E42;
+    color: #091e42;
   }
 
   .contentPara {
@@ -721,7 +720,7 @@ input {
     font-size: 1.3rem;
     line-height: 3.4vw;
     font-weight: 700;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .aboutPara {
@@ -924,10 +923,6 @@ input {
     font-size: 1.9rem;
   }
 
-  .postLeft li {
-    font-size: 0.9rem;
-  }
-
   .worksText {
     font-size: 0.7rem;
   }
@@ -954,9 +949,6 @@ input {
 
   .aboutMe {
     padding: 0 9.5% 25% 9.5%;
-  }
-
-  .aboutMe {
     font-size: 2rem;
     line-height: 2.4rem;
   }
