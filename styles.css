@@ -135,11 +135,11 @@ li {
   grid-template-columns: 1fr;
   justify-content: center;
   background-color: #e5e5e5;
-  padding: 7rem 2rem 12rem 2rem;
   row-gap: 5rem;
 }
 
 .grid-item {
+  margin: 5rem 8% 0 8%;
   display: flex;
   flex-direction: column;
   border-radius: 16px;
@@ -235,7 +235,7 @@ li {
   padding: 114px 24px 55px 24px;
   background-color: #fff;
   border-radius: 0 65px 0 0;
-  margin-top: -80px;
+  margin-top: 30px;
 }
 
 .aboutMe h2 {
@@ -591,11 +591,12 @@ input {
   }
 
   .grid-container {
-    padding: 10% 10.5% 26%;
-    row-gap: 9%;
+    
   }
 
   .grid-item {
+    margin: 10% 10.5% 0;
+    row-gap: 9%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
