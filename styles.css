@@ -851,6 +851,10 @@ input {
     width: 80%;
   }
 
+  #errorAlert {
+    text-align: center;
+  }
+
   input {
     padding-left: 0.5rem;
     height: 1.75rem;

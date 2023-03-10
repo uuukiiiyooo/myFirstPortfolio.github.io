@@ -199,3 +199,17 @@ openProjects.forEach(function (button, index) {
     });
   });
 });
+
+const form = document.querySelector('#contactForm');
+const email = document.querySelector('#userEmail');
+const error = document.querySelector('#errorAlert');
+form.addEventListener('submit', (event) => {
+  if (email.value.toLowerCase() !== email.value) {
+    error.innerHTML = 'Email must be lowercase';
+    event.preventDefault();
+    error.style.display = 'block';
+  } else {
+    error.innerHTML = '';
+    error.display.style = 'none';
+  }
+});
