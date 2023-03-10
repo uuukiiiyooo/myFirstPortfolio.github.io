@@ -199,3 +199,26 @@ openProjects.forEach(function (button, index) {
     });
   });
 });
+
+const submit = document.querySelector('#submit');
+submit.addEventListener('click', saveData(event));
+
+function saveData(event) {
+  event.preventDefault();
+
+  var name = document.getElementById("name").value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+
+  const savedName = localStorage.getItem('Name')
+  const savedEmail = localStorage.getItem('Email')
+  const savedMessage = localStorage.getItem('Message')
+
+  name.value = savedName;
+  email.value = savedEmail;
+  message.value = savedMessage;
+
+  localStorage.setItem('Name', name);
+  localStorage.setItem('Email', email);
+  localStorage.setItem('Message', message);
+}
