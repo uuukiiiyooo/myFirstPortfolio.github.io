@@ -200,23 +200,34 @@ openProjects.forEach(function (button, index) {
   });
 });
 
-const submit = document.querySelector('#submit');
-submit.addEventListener('click', saveData());
+// const submit = document.querySelector('#submit');
+// submit.addEventListener('click', saveData());
 
-function saveData() {
-  var name = document.getElementById("name").value;
-  var email = document.getElementById('email').value;
-  var message = document.getElementById('message').value;
+let formData = {
+  name: '',
+  email:'',
+  message:'',
+}
 
-  const savedName = localStorage.getItem('Name').value;
-  const savedEmail = localStorage.getItem('Email').value;
-  const savedMessage = localStorage.getItem('Message').value;
+function populateStorage(){
+  formData.name =  document.getElementById('name').value;
+  formData.email = document.getElementById('email').value;
+  formData.message = document.getElementById('message').value;
+  localStorage.setItem('form-storage' , JSON.stringify(formData))
+}
 
-  name.value = savedName;
-  email.value = savedEmail;
-  message.value = savedMessage;
+function getData(){
+  let storagedata = localStorage.getItem('form-storage');
+  storagedata = JSON.parse(storagedata);
 
-  localStorage.setItem('Name', name);
-  localStorage.setItem('Email', email);
-  localStorage.setItem('Message', message);
+  document.getElementById('name').value=storagedata.name;
+  document.getElementById('email').value=storagedata.name;
+  document.getElementById('message').value=storagedata.name;
+}
+
+
+if(localStorage.getItem('form-storage')){
+  getData();
+} else {
+  populateStorge();
 }
