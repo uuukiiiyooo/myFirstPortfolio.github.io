@@ -853,6 +853,8 @@ input {
 
   #errorAlert {
     text-align: center;
+    padding-top: 12px;
+    color: #fff;
   }
 
   input {
