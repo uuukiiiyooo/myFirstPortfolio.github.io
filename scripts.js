@@ -185,7 +185,7 @@ openProjects.forEach(function (button, index) {
           <div class="divider"><img src="${projectData.divider}"></div>
           <div class="popButtons">
             <button class="liveButton" onclick="window.open('${projectData.liveLink}','_blank')">See live <img src="${projectData.liveIcon}"></button>
-            <button class="sourceButton" onclick="window.open('${projectData.sourceLink}','_blank')">See Source <img src="${projectData.sourceIcon}"></button>
+            <button class="sourceButton" onclick="window.open('{projectData.sourceLink}','_blank')">See Source <img src="${projectData.sourceIcon}"></button>
           </div>
         </div>
       </div>
@@ -200,13 +200,10 @@ openProjects.forEach(function (button, index) {
   });
 });
 
-// const submit = document.querySelector('#submit');
-// submit.addEventListener('click', saveData());
-
 let formData = {
   name: '',
-  email:'',
-  message:'',
+  email: '',
+  message: '',
 }
 
 function populateStorage(){
@@ -216,7 +213,7 @@ function populateStorage(){
   localStorage.setItem('form-storage' , JSON.stringify(formData))
 }
 
-function getData(){
+functio getData(){
   let storagedata = localStorage.getItem('form-storage');
   storagedata = JSON.parse(storagedata);
 
@@ -225,8 +222,17 @@ function getData(){
   document.getElementById('message').value=storagedata.name;
 }
 
+inputList =[];
+inputList.push(document.getElementById('name'));
+inputList.push(document.getElementById('email'));
+inputList.push(document.getElementById('message'));
+inputList.forEach((value) => {
+  value.addEventListener('input', () => {
+    populateStorage();
+  });
+});
 
-if(localStorage.getItem('form-storage')){
+if(localStorage.getItem('Form-storage')){
   getData();
 } else {
   populateStorge();
