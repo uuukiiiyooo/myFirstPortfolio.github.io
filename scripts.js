@@ -201,18 +201,16 @@ openProjects.forEach(function (button, index) {
 });
 
 const submit = document.querySelector('#submit');
-submit.addEventListener('click', saveData(event));
+submit.addEventListener('click', saveData());
 
-function saveData(event) {
-  event.preventDefault();
-
+function saveData() {
   var name = document.getElementById("name").value;
   var email = document.getElementById('email').value;
   var message = document.getElementById('message').value;
 
-  const savedName = localStorage.getItem('Name')
-  const savedEmail = localStorage.getItem('Email')
-  const savedMessage = localStorage.getItem('Message')
+  const savedName = localStorage.getItem('Name').value;
+  const savedEmail = localStorage.getItem('Email').value;
+  const savedMessage = localStorage.getItem('Message').value;
 
   name.value = savedName;
   email.value = savedEmail;
